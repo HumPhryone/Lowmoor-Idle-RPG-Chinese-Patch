@@ -1,0 +1,21 @@
+source_term	target	category	context_note	status
+Lowmoor: An Adventurer's Chronicle	Lowmoor：冒险者编年史	product name	Game title; decide once and reuse everywhere	approved
+Mereward	梅里沃德	place	Guild town; keep consistent across narrative and UI	approved
+Guild	行会	faction/system	The Adventurers' Guild; distinguish institution from building	approved
+The Maw	巨口深渊	place/module	Dungeon/deep proper name; review all compounds	approved
+The Mourning Vale	哀悼谷	place/module	Module II proper name	approved
+Adventurer's Papers	冒险者档案	UI panel	Character sheet panel title	approved
+Roll of Honour	荣誉名册	progression/system	Persistent prestige/achievement roll	approved
+Prestige	声望	resource	Meta-progression currency	approved
+Descent	下行进度	progress bar	Progress toward the next floor	approved
+Encumbrance	负重	stat/system	Inventory weight mechanic	approved
+Cantrips	戏法	ability/system	Spell/trick list; distinguish from signature moves	approved
+Feats	专长	progression/system	Earned and equipped passive deeds	approved
+Bestiary	怪物图鉴	collection/system	Beast reference book	approved
+Hirelings	雇员	character/system	Guild-employed companions	approved
+Pets	宠物	character/system	Companion collection and active pet	approved
+Armoury	军械库	building/system	Equipment register and forge	approved
+Guildhouse	行会大厅	building/system	Guild upgrade building	approved
+FYRBAL.EXE	FYRBAL.EXE	hidden mini-game	Keep product easter-egg identity; review casing	approved
+Maw-boar	巨口野猪	creature	Creature name; use same form in logs and bestiary	approved
+Lich	巫妖	creature/title	Boss/title; preserve capitalization policy	approved

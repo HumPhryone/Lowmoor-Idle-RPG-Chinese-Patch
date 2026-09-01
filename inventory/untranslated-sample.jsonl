@@ -1,0 +1,500 @@
+{"file":"game/lowmoor.js","text":"use strict","translated":"use strict"}
+{"file":"game/lowmoor.js","text":"28 August 2026","translated":"28 August 2026"}
+{"file":"game/lowmoor.js","text":"The Simplicity example in Options no longer shows a line the game does not print.","translated":"The Simplicity example in 选项 no longer shows a line the game does not print."}
+{"file":"game/lowmoor.js","text":"The beast's plate no longer shoves the panel beside it as fights start and end.","translated":"The 野兽's plate no longer shoves the panel beside it as fights start and end."}
+{"file":"game/lowmoor.js","text":"The “turn sound on” prompt no longer returns for every adventurer. It asks once, after your first boss.","translated":"The “turn sound on” prompt no longer returns for every adventurer. It asks once, after your first 首领."}
+{"file":"game/lowmoor.js","text":"“Send for this one now” now works with a full party. The yard asks which hand steps down, and that hand keeps its study.","translated":"“Send for this one now” now works with a full party. The yard asks which hand steps down, and that hand keeps its study."}
+{"file":"game/lowmoor.js","text":"The off-hand feat is now read by every fitting, so Auto-equip no longer strips your second weapon for a shield.","translated":"The off-hand feat is now read by every fitting, so Auto-equip no longer strips your second weapon for a 盾牌."}
+{"file":"game/lowmoor.js","text":"The Armoury now hands over the second weapon, and toggling the off-hand feat re-fits your kit on the spot","translated":"军械库 now hands over the second weapon, and toggling the off-hand feat re-fits your kit on the spot"}
+{"file":"game/lowmoor.js","text":"The Red Hour wrote to the log many times a second. It writes once now.","translated":"The Red Hour wrote to the log many times a second. It writes once now."}
+{"file":"game/lowmoor.js","text":"With Simple wording on, the school tooltip promised spell names and never showed them.","translated":"With Simple wording on, the school tooltip promised 法术 names and never showed them."}
+{"file":"game/lowmoor.js","text":"The ability row slid under the header when you scrolled the list. It stays in place now.","translated":"The 能力 row slid under the header when you scrolled the list. It stays in place now."}
+{"file":"game/lowmoor.js","text":"When two spells were tied, the wrong one sat on top. The firing one sits on top now.","translated":"When two spells were tied, the wrong one sat on top. The firing one sits on top now."}
+{"file":"game/lowmoor.js","text":"Clearing the wall before v1.6.2 never gave “The Hand That Walked Out”. It does now.","translated":"Clearing the wall before v1.6.2 never gave “The Hand That Walked Out”. It does now."}
+{"file":"game/lowmoor.js","text":"Four set accessories had no description in the armoury book. They show their bonus now.","translated":"Four set accessories had no description in the armoury book. They show their bonus now."}
+{"file":"game/lowmoor.js","text":"Single-source items now say “and no other way” instead of “and off no other door”.","translated":"Single-source items now say “and no other way” instead of “and off no other door”."}
+{"file":"game/lowmoor.js","text":"25 August 2026","translated":"25 August 2026"}
+{"file":"game/lowmoor.js","text":"The four new pets could not eat. Now they eat.","translated":"The four new pets could not eat. Now they eat."}
+{"file":"game/lowmoor.js","text":"Vane still doubles the chance.","translated":"维恩 still doubles the chance."}
+{"file":"game/lowmoor.js","text":"The cave-shrike, road-mole, magpie and mist-hare ate nothing and never grew.","translated":"The 洞穴尖啸鸟, 道路鼹鼠, magpie and 雾兔 ate nothing and never grew."}
+{"file":"game/lowmoor.js","text":"Pets already on your Roll start growing from the next stroke, leg or chest.","translated":"宠物 already on your Roll start growing from the next stroke, leg or chest."}
+{"file":"game/lowmoor.js","text":"A pet's door now opens the moment it is earned, instead of at the next kill.","translated":"A pet's door now opens the moment it is earned, instead of at the next kill."}
+{"file":"game/lowmoor.js","text":"A fully grown mist-hare shows a full bar at its tenth growth, which is its cap.","translated":"A fully grown 雾兔 shows a full bar at its tenth growth, which is its cap."}
+{"file":"game/lowmoor.js","text":"A fast chronicle spent seconds on road legs and earned almost no descent for them.","translated":"A fast chronicle spent seconds on 道路路段 and earned almost no descent for them."}
+{"file":"game/lowmoor.js","text":"24 August 2026","translated":"24 August 2026"}
+{"file":"game/lowmoor.js","text":"New items, pets, a hireling, and a folk and an origin to unlock. Details on Steam.","translated":"新增物品、宠物、雇员、种族和出身等待解锁。详情请见 Steam。"}
+{"file":"game/lowmoor.js","text":"Every folk, trade and origin gift is lifted. Details on Steam.","translated":"Every 种族, 职业 and 出身 gift is lifted. Details on Steam."}
+{"file":"game/lowmoor.js","text":"22 August 2026","translated":"22 August 2026"}
+{"file":"game/lowmoor.js","text":"A kinder Infirmary, earlier camps, and a tidier Options.","translated":"A kinder Infirmary, earlier camps, and a tidier 选项."}
+{"file":"game/lowmoor.js","text":"The Infirmary's stay is capped at two and a half minutes, was ten, and a camp is made below half your hit points, was a quarter.","translated":"The Infirmary's stay is capped at two and a half minutes, was ten, and a camp is made below half your 生命值, was a quarter."}
+{"file":"game/lowmoor.js","text":"The Armoury can show only the kit you are wearing, and can find a pattern by name.","translated":"军械库 can show only the kit you are wearing, and can find a pattern by name."}
+{"file":"game/lowmoor.js","text":"Works endowed in full stand below the works still asking, at the Guildhouse.","translated":"Works endowed in full stand below the works still asking, at the 行会大厅."}
+{"file":"game/lowmoor.js","text":"Playing by hand, a drop that betters your kit says so in the log, and the Armoury button counts the register pieces that wait.","translated":"Playing by hand, a drop that betters your kit says so in the log, and the 军械库 button counts the register pieces that wait."}
+{"file":"game/lowmoor.js","text":"The Roll of Honour takes a reset: every upgrade unbought and every point returned, to be spent afresh.","translated":"The Roll of Honour takes a reset: every upgrade unbought and every point returned, to be spent afresh."}
+{"file":"game/lowmoor.js","text":"The bone-dog pays +2 max HP a growth, was +1.","translated":"The 骨犬 pays +2 max 生命值 a growth, was +1."}
+{"file":"game/lowmoor.js","text":"The physician's leech pays +2 max MP a growth, was +1.","translated":"The 医师水蛭 pays +2 max 法力值 a growth, was +1."}
+{"file":"game/lowmoor.js","text":"Damage figures in the fight log no longer print a tail of decimals.","translated":"伤害 figures in the fight log no longer print a tail of decimals."}
+{"file":"game/lowmoor.js","text":"The armoury wall names its pieces as the sheet does, not by their catalog marks.","translated":"The armoury wall names its pieces as the sheet does, not by their catalog marks."}
+{"file":"game/lowmoor.js","text":"No more double articles at the wall: taken off the Maw-boar, not off a the Maw-boar.","translated":"No more double articles at the wall: taken off the Maw-boar, not off a the Maw-boar."}
+{"file":"game/lowmoor.js","text":"Mastered counts only beasts the bestiary lists, so the figure cannot stand above the book.","translated":"Mastered counts only beasts the bestiary lists, so the figure cannot stand above the book."}
+{"file":"game/lowmoor.js","text":"A worn piece wears its catalog rarity's colour: the kit and the armoury book no longer disagree.","translated":"A worn piece wears its catalog rarity's colour: the kit and the armoury book no longer disagree."}
+{"file":"game/lowmoor.js","text":"The Armoury's Equip button stands down while the very version it would fit is worn.","translated":"军械库's Equip button stands down while the very version it would fit is worn."}
+{"file":"game/lowmoor.js","text":"The Roll of Pets counts along while it stands open, rather than at the opening alone.","translated":"宠物名册 counts along while it stands open, rather than at the opening alone."}
+{"file":"game/lowmoor.js","text":"21 August 2026","translated":"21 August 2026"}
+{"file":"game/lowmoor.js","text":"The Steam bundle: the fight on the die, a signature move for every trade, pets, feats and desks.","translated":"The Steam bundle: the fight on the die, a signature move for every 职业, pets, feats and desks."}
+{"file":"game/lowmoor.js","text":"Fights are on the die: attack rolls, damage dice, statblocked beasts that leave a mark. Kit is four named slots.","translated":"Fights are on the die: attack rolls, damage dice, statblocked beasts that leave a mark. Kit is four named slots."}
+{"file":"game/lowmoor.js","text":"Casters fight from INT, WIS or CHA. Every trade has one signature move, and a plus beside it opens its upgrades.","translated":"Casters fight from INT, WIS or CHA. Every 职业 has one signature move, and a plus beside it opens its upgrades."}
+{"file":"game/lowmoor.js","text":"Three pets now: the chest, the bone-dog and the leech. One walks at your heel, and only that one pays.","translated":"Three pets now: the chest, the 骨犬 and the leech. One walks at your heel, and only that one pays."}
+{"file":"game/lowmoor.js","text":"Feats are earned by a deed and bought with prestige: 13 on the board, and your papers hold 3.","translated":"专长 are earned by a deed and bought with prestige: 13 on the board, and your papers hold 3."}
+{"file":"game/lowmoor.js","text":"The folk and trade gifts are recut; Shop, Prestige and Guildhouse all grew; Options adds a play style switch and three desks.","translated":"The 种族 and 职业 gifts are recut; Shop, 声望 and 行会大厅 all grew; 选项 adds a play style switch and three desks."}
+{"file":"game/lowmoor.js","text":"An update too large for this window: the full patch notes are the v1.6.0 post on Steam.","translated":"An update too large for this window: the full patch notes are the v1.6.0 post on Steam."}
+{"file":"game/lowmoor.js","text":"16 August 2026","translated":"16 August 2026"}
+{"file":"game/lowmoor.js","text":"Prestige pays for depth now, in both modules.","translated":"声望 pays for depth now, in both modules."}
+{"file":"game/lowmoor.js","text":"Retiring pays for how deep you got. Rank, bosses and gold scale with depth.","translated":"Retiring pays for how deep you got. 阶位, bosses and 金币 scale with depth."}
+{"file":"game/lowmoor.js","text":"Retiring on Arc I pays 2 prestige, was 25. A full Maw run still pays 406.","translated":"Retiring on Arc I pays 2 prestige, was 25. A full Maw run still pays 406."}
+{"file":"game/lowmoor.js","text":"Module II changed the same way: a full Vale run is 1,852 prestige, was 85.","translated":"Module II changed the same way: a full Vale run is 1,852 prestige, was 85."}
+{"file":"game/lowmoor.js","text":"Beating the Count pays 700 prestige. Module II's last chapter paid 2 before.","translated":"Beating the Count pays 700 prestige. Module II's last 章节 paid 2 before."}
+{"file":"game/lowmoor.js","text":"An oath opens once one of its two rings is closed, which is all eight skills.","translated":"An oath opens once one of its two rings is closed, which is all eight skills."}
+{"file":"game/lowmoor.js","text":"That puts it at the 221st skill of a run, where it stood at the 214th.","translated":"That puts it at the 221st skill of a run, where it stood at the 214th."}
+{"file":"game/lowmoor.js","text":"Retire says why a shallow run pays nothing, instead of an empty list.","translated":"退休 says why a shallow run pays nothing, instead of an empty list."}
+{"file":"game/lowmoor.js","text":"A choice answered during a market trip has its trophy sold with the rest.","translated":"A choice answered during a market trip has its 战利品 sold with the rest."}
+{"file":"game/lowmoor.js","text":"The sheet's list headers stay in front of the rows scrolling under them.","translated":"The sheet's list headers stay in front of the rows scrolling under them."}
+{"file":"game/lowmoor.js","text":"A beast mastered in an earlier chronicle says so, instead of reading mastered at ×0.","translated":"A 野兽 mastered in an earlier chronicle says so, instead of reading mastered at ×0."}
+{"file":"game/lowmoor.js","text":"Every window says the same kills to a mastery: 10, or 5 with the Annotated Bestiary.","translated":"Every window says the same kills to a mastery: 10, or 5 with the Annotated 怪物图鉴."}
+{"file":"game/lowmoor.js","text":"The New gear button's tooltip changes with the order on every click.","translated":"The New gear button's tooltip changes with the order on every click."}
+{"file":"game/lowmoor.js","text":"A tooltip held over an item stays up when the list repaints under it.","translated":"A tooltip 持有 over an item stays up when the list repaints under it."}
+{"file":"game/lowmoor.js","text":"Profile counts a stage of an event in its own unit: goblins, or damage at a boss.","translated":"Profile counts a stage of an event in its own unit: goblins, or damage at a 首领."}
+{"file":"game/lowmoor.js","text":"An event badge is named for what you did, so it reads the same at every stage.","translated":"An event badge is named for what you did, so it reads the same at every stage."}
+{"file":"game/lowmoor.js","text":"12 August 2026","translated":"12 August 2026"}
+{"file":"game/lowmoor.js","text":"Events open, and the Guild calls its first muster.","translated":"Events open, and the 行会 calls its first muster."}
+{"file":"game/lowmoor.js","text":"Events (menu): live events, the whole membership standing at one board.","translated":"Events (menu): live events, the whole membership standing at one board."}
+{"file":"game/lowmoor.js","text":"The first opens 13 August, 12:00 CEST: three stages, 24 hours each.","translated":"The first opens 13 August, 12:00 CEST: three stages, 24 hours each."}
+{"file":"game/lowmoor.js","text":"Stand hours at it while you play. An hour counts the same at every rank.","translated":"Stand hours at it while you play. An hour counts the same at every rank."}
+{"file":"game/lowmoor.js","text":"Carry all three stages and the ending goes to a vote of the members.","translated":"Carry all three stages and the ending goes to a vote of the members."}
+{"file":"game/lowmoor.js","text":"Every badge you take at a muster is a point of voice in its vote.","translated":"Every badge you take at a muster is a point of voice in its vote."}
+{"file":"game/lowmoor.js","text":"Profile keeps your hours and badges; History keeps what the Guild chose.","translated":"Profile keeps your hours and badges; History keeps what the 行会 chose."}
+{"file":"game/lowmoor.js","text":"Retire opens at every rank. The pension it pays still opens at the 5th.","translated":"退休 opens at every rank. The pension it pays still opens at the 5th."}
+{"file":"game/lowmoor.js","text":"A concluded season says +1 prestige point only when it pays one.","translated":"A concluded season says +1 prestige point only when it pays one."}
+{"file":"game/lowmoor.js","text":"A skipped season says so, and gives the rate the taper has thinned to.","translated":"A skipped season says so, and gives the rate the taper has thinned to."}
+{"file":"game/lowmoor.js","text":"Retire says how many points your court seasons actually paid.","translated":"退休 says how many points your court seasons actually paid."}
+{"file":"game/lowmoor.js","text":"Prestige and the victory screens say the rate halves every 12 seasons.","translated":"声望 and the victory screens say the rate halves every 12 seasons."}
+{"file":"game/lowmoor.js","text":"Endow a recovery party says its point is paid in full every time.","translated":"Endow a recovery party says its point is paid in full every time."}
+{"file":"game/lowmoor.js","text":"Guildhouse, Shop, Feats and Skill Tree show your gold as it changes.","translated":"行会大厅, Shop, 专长 and Skill Tree show your 金币 as it changes."}
+{"file":"game/lowmoor.js","text":"A buy the purse has fallen short of says what it asks and what you hold.","translated":"A buy the purse has fallen short of says what it asks and what you hold."}
+{"file":"game/lowmoor.js","text":"Two hirelings take a line each, and their trades read out in full.","translated":"Two hirelings take a line each, and their trades read out in full."}
+{"file":"game/lowmoor.js","text":"The sheet keeps its three even columns whatever a panel has to say.","translated":"The sheet keeps its three even columns whatever a panel has to say."}
+{"file":"game/lowmoor.js","text":"A beast's health bar empties all the way to zero at speed, as its number did.","translated":"A 野兽's health bar empties all the way to zero at 速度, as its number did."}
+{"file":"game/lowmoor.js","text":"10 August 2026","translated":"10 August 2026"}
+{"file":"game/lowmoor.js","text":"Guild upgrades moved to the Guildhouse, and Feats opened.","translated":"行会 upgrades moved to the 行会大厅, and 专长 opened."}
+{"file":"game/lowmoor.js","text":"Guild upgrades are bought in Guildhouse (menu) now, not the Shop.","translated":"行会 upgrades are bought in 行会大厅 (menu) now, not the Shop."}
+{"file":"game/lowmoor.js","text":"8 upgrades over 41 stages. New: a second hireling, bigger pack, longer boons.","translated":"8 upgrades over 41 stages. New: a second hireling, bigger pack, longer boons."}
+{"file":"game/lowmoor.js","text":"Feats (menu): 11 feats, 8 slots. Earn one with a deed, then buy it.","translated":"专长 (menu): 11 feats, 8 slots. Earn one with a deed, then buy it."}
+{"file":"game/lowmoor.js","text":"Collections (menu): every collection in one window, each with a bar.","translated":"收藏 (menu): every collection in one window, each with a bar."}
+{"file":"game/lowmoor.js","text":"Prestige has 3 new upgrades, and now opens during a run.","translated":"声望 has 3 new upgrades, and now opens during a run."}
+{"file":"game/lowmoor.js","text":"Six beasts in the Bestiary have drawings sent in by players.","translated":"Six beasts in the 怪物图鉴 have drawings sent in by players."}
+{"file":"game/lowmoor.js","text":"Prestige from sitting at the bottom tapers off. Retiring restores it.","translated":"声望 from sitting at the bottom tapers off. Retiring restores it."}
+{"file":"game/lowmoor.js","text":"The pension pays much more for depth: a full Maw run is 294, was 60.","translated":"The pension pays much more for depth: a full Maw run is 294, was 60."}
+{"file":"game/lowmoor.js","text":"Offline pays exactly what an open game pays: fewer +1 stat quests.","translated":"Offline pays exactly what an open game pays: fewer +1 stat quests."}
+{"file":"game/lowmoor.js","text":"Each boon you buy at the Shop costs a tenth more, up to 10x.","translated":"Each 恩惠 you buy at the Shop costs a tenth more, up to 10x."}
+{"file":"game/lowmoor.js","text":"Options: Simplicity states bonuses plainly, and Size scales the window.","translated":"选项: Simplicity states bonuses plainly, and Size scales the window."}
+{"file":"game/lowmoor.js","text":"Bar figures read in light mode, and the work bar animates smoothly.","translated":"Bar figures read in light mode, and the work bar animates smoothly."}
+{"file":"game/lowmoor.js","text":"The strip keeps its figures inside the game, folded or popped out.","translated":"The strip keeps its figures inside the game, folded or popped out."}
+{"file":"game/lowmoor.js","text":"Gold and XP popups start from the work bar when panels fold.","translated":"Gold and 经验值 popups start from the work bar when panels fold."}
+{"file":"game/lowmoor.js","text":"The Skill Tree fits the screen it opens on, and closes on a phone.","translated":"技能树 fits the screen it opens on, and closes on a phone."}
+{"file":"game/lowmoor.js","text":"Gear and trophies in the log use their rarity colour.","translated":"Gear and trophies in the log use their rarity colour."}
+{"file":"game/lowmoor.js","text":"Music cross-fades between tracks, and ducks under a fanfare.","translated":"Music cross-fades between tracks, and ducks under a fanfare."}
+{"file":"game/lowmoor.js","text":"A choice answered mid-fight puts its reward in the pack right away.","translated":"A choice answered mid-fight puts its reward in the pack right away."}
+{"file":"game/lowmoor.js","text":"Illnesses say that they hinder you, in red.","translated":"Illnesses say that they hinder you, in red."}
+{"file":"game/lowmoor.js","text":"8 August 2026","translated":"8 August 2026"}
+{"file":"game/lowmoor.js","text":"Point auto-assign, and a skill tree you can read.","translated":"Point auto-assign, and a skill tree you can read."}
+{"file":"game/lowmoor.js","text":"Tick a quarter in Skills and auto-assign spends there first, and offers you that oath.","translated":"Tick a quarter in Skills and auto-assign spends there first, and offers you that oath."}
+{"file":"game/lowmoor.js","text":"Oaths moved to the outer rim and connect to the middle of two rings.","translated":"Oaths moved to the outer rim and connect to the middle of two rings."}
+{"file":"game/lowmoor.js","text":"The 8 quarter progress bars moved outside the tree.","translated":"The 8 quarter progress bars moved outside the tree."}
+{"file":"game/lowmoor.js","text":"Nothing on the tree overlaps any more, and masteries moved to the middle.","translated":"Nothing on the tree overlaps any more, and masteries moved to the middle."}
+{"file":"game/lowmoor.js","text":"Major skills and oaths are drawn bigger when you zoom out.","translated":"Major skills and oaths are drawn bigger when you zoom out."}
+{"file":"game/lowmoor.js","text":"Closing your first ring in a quarter gives that quarter a bonus.","translated":"Closing your first 戒指 in a quarter gives that quarter a bonus."}
+{"file":"game/lowmoor.js","text":"Masteries open on any major skill in that quarter, like the text says.","translated":"Masteries open on any major skill in that quarter, like the text says."}
+{"file":"game/lowmoor.js","text":"Taken: X of Y and the quarter bars can reach 100%.","translated":"Taken: X of Y and the quarter bars can reach 100%."}
+{"file":"game/lowmoor.js","text":"Zoom out fits the whole tree. Zoom in stops at the limit.","translated":"Zoom out fits the whole tree. Zoom in stops at the limit."}
+{"file":"game/lowmoor.js","text":"A finished tree stops repeating itself every 15 seconds.","translated":"A finished tree stops repeating itself every 15 seconds."}
+{"file":"game/lowmoor.js","text":"One letter in Find no longer highlights every skill.","translated":"One letter in Find no longer highlights every skill."}
+{"file":"game/lowmoor.js","text":"The Rogue's starting skill has a road out of it.","translated":"The 游荡者's starting skill has a road out of it."}
+{"file":"game/lowmoor.js","text":"Fold stays folded. Pop out opens a real window.","translated":"Fold stays folded. Pop out opens a real window."}
+{"file":"game/lowmoor.js","text":"Five Arcs Closed and A Day the Guild Keeps count what you already did.","translated":"Five Arcs Closed and A Day the 行会 Keeps count what you already did."}
+{"file":"game/lowmoor.js","text":"Hirelings show up in Module II, like they do in Module I.","translated":"雇员 show up in Module II, like they do in Module I."}
+{"file":"game/lowmoor.js","text":"7 August 2026","translated":"7 August 2026"}
+{"file":"game/lowmoor.js","text":"On Steam, with a second module and a minstrel.","translated":"On Steam, with a second module and a minstrel."}
+{"file":"game/lowmoor.js","text":"On Steam: achievements, cloud saves, and a window that scales.","translated":"On Steam: achievements, cloud saves, and a window that scales."}
+{"file":"game/lowmoor.js","text":"Module II: The Mourning Vale, six chapters and four endings.","translated":"Module II: 哀悼谷, six chapters and four endings."}
+{"file":"game/lowmoor.js","text":"Armour turns blows aside. Every piece carries an item level.","translated":"Armour turns blows aside. Every piece carries an item level."}
+{"file":"game/lowmoor.js","text":"The minstrel plays 44 named airs, one to a floor and chapter.","translated":"The minstrel plays 44 named airs, one to a 楼层 and 章节."}
+{"file":"game/lowmoor.js","text":"The Roll holds 100 honours, counted across every chronicle.","translated":"The Roll holds 100 honours, counted across every chronicle."}
+{"file":"game/lowmoor.js","text":"Fold to a strip. Panels fold, and lists take a height by hand.","translated":"Fold to a strip. Panels fold, and lists take a height by hand."}
+{"file":"game/lowmoor.js","text":"A weapon earns its material; appraisals read true.","translated":"A weapon earns its material; appraisals read true."}
+{"file":"game/lowmoor.js","text":"A day away is audited in full at endgame speed.","translated":"A day away is audited in full at endgame 速度."}
+{"file":"game/lowmoor.js","text":"The retirement window names the points on your Roll.","translated":"The retirement window names the points on your Roll."}
+{"file":"game/lowmoor.js","text":"Nine odometers retire for the Vale's nine; yours stay.","translated":"Nine odometers retire for the Vale's nine; yours stay."}
+{"file":"game/lowmoor.js","text":"4 August 2026","translated":"4 August 2026"}
+{"file":"game/lowmoor.js","text":"The faults you found, put right.","translated":"The faults you found, put right."}
+{"file":"game/lowmoor.js","text":"Three honours for how deep your workings go.","translated":"Three honours for how deep your workings go."}
+{"file":"game/lowmoor.js","text":"Options: a switch for the shake alone.","translated":"选项: a switch for the shake alone."}
+{"file":"game/lowmoor.js","text":"The hold to take a skill is shorter.","translated":"The hold to take a skill is shorter."}
+{"file":"game/lowmoor.js","text":"A skill that quickens a working says what you gain.","translated":"A skill that quickens a 法术 says what you gain."}
+{"file":"game/lowmoor.js","text":"An arc close banks a free reset.","translated":"An 幕 close banks a free reset."}
+{"file":"game/lowmoor.js","text":"The Guild spends your points while you watch.","translated":"The 行会 spends your points while you watch."}
+{"file":"game/lowmoor.js","text":"Your trade's first skill is granted again.","translated":"Your 职业's first skill is granted again."}
+{"file":"game/lowmoor.js","text":"The Skill Tree stops blinking.","translated":"技能树 stops blinking."}
+{"file":"game/lowmoor.js","text":"An imported chronicle drops the old choices.","translated":"An imported chronicle drops the old choices."}
+{"file":"game/lowmoor.js","text":"Nine faint lines in the dark theme read again.","translated":"Nine faint lines in the dark theme read again."}
+{"file":"game/lowmoor.js","text":"Figures print to two decimals.","translated":"Figures print to two decimals."}
+{"file":"game/lowmoor.js","text":"30 July 2026","translated":"30 July 2026"}
+{"file":"game/lowmoor.js","text":"The Skill Tree: 964 skills in eight quarters.","translated":"技能树: 964 skills in eight quarters."}
+{"file":"game/lowmoor.js","text":"A skill tree in the menu: 964 skills in eight quarters.","translated":"A skill tree in the menu: 964 skills in eight quarters."}
+{"file":"game/lowmoor.js","text":"Points come as you rank up. The Guild spends them, or you take the pen.","translated":"Points come as you rank up. The 行会 spends them, or you take the pen."}
+{"file":"game/lowmoor.js","text":"Eight oaths. Each one gives you something and takes something away.","translated":"Eight oaths. Each one gives you something and takes something away."}
+{"file":"game/lowmoor.js","text":"The menu bar is four menus now: Chronicle, Guild, Records, Help.","translated":"The menu bar is four menus now: 编年史, 行会, 记录, 帮助."}
+{"file":"game/lowmoor.js","text":"The Night Clerk: an hour more of away time per level, up to a day.","translated":"The Night Clerk: an hour more of away time per level, up to a day."}
+{"file":"game/lowmoor.js","text":"Options: a dark theme, and a switch to turn off the shake and flash.","translated":"选项: a dark theme, and a switch to turn off the shake and flash."}
+{"file":"game/lowmoor.js","text":"The away window no longer opens when you left the game running.","translated":"The away window no longer opens when you left the game running."}
+{"file":"game/lowmoor.js","text":"The Windows build fills the whole window. No grey border.","translated":"The Windows build fills the whole window. No grey border."}
+{"file":"game/lowmoor.js","text":"27 July 2026","translated":"27 July 2026"}
+{"file":"game/lowmoor.js","text":"A quieter start, and plainer figures throughout.","translated":"A quieter start, and plainer figures throughout."}
+{"file":"game/lowmoor.js","text":"The menu bar starts with seven buttons. The rest open as you earn them.","translated":"The menu bar starts with seven buttons. The rest open as you earn them."}
+{"file":"game/lowmoor.js","text":"Gifts, the Shop, the works and the abilities state their figure and stop.","translated":"Gifts, the Shop, the works and the abilities state their figure and stop."}
+{"file":"game/lowmoor.js","text":"The counter's boons say how long they run: five minutes.","translated":"The 商店's boons say how long they run: five minutes."}
+{"file":"game/lowmoor.js","text":"Statistics shows where your speed comes from, and your gold and experience by the hour.","translated":"统计 shows where your 速度 comes from, and your 金币 and 经验 by the hour."}
+{"file":"game/lowmoor.js","text":"The ? in the titlebar explains anything you click.","translated":"The ? in the titlebar explains anything you click."}
+{"file":"game/lowmoor.js","text":"Retiring now closes the chronicle at once. A refresh could bring the adventurer back and pay the pension again.","translated":"Retiring now closes the chronicle at once. A refresh could bring the adventurer back and pay the pension again."}
+{"file":"game/lowmoor.js","text":"A court season is no longer pensioned twice. The retirement window itemises what it pays for.","translated":"A court season is no longer pensioned twice. The retirement window itemises what it pays for."}
+{"file":"game/lowmoor.js","text":"The trophy case no longer counts a boss it has no place to show.","translated":"The 战利品 case no longer counts a 首领 it has no place to show."}
+{"file":"game/lowmoor.js","text":"25 July 2026","translated":"25 July 2026"}
+{"file":"game/lowmoor.js","text":"The Guild calendar, and ten days it keeps.","translated":"The 行会 calendar, and ten days it keeps."}
+{"file":"game/lowmoor.js","text":"A calendar sits in the statusbar beside the clock; a click opens the month, with the days the Guild keeps marked upon it.","translated":"A calendar sits in the statusbar beside the clock; a click opens the month, with the days the 行会 keeps marked upon it."}
+{"file":"game/lowmoor.js","text":"Mereward keeps ten days of its own between July and September, each upon its own date, from the Ropewalk to the Quarter's Ruling.","translated":"Mereward keeps ten days of its own between July and September, each upon its own date, from the Ropewalk to the Quarter's Ruling."}
+{"file":"game/lowmoor.js","text":"Word of the day in keeping reaches you down the shaft when it comes up.","translated":"Word of the day in keeping reaches you down the shaft when it comes up."}
+{"file":"game/lowmoor.js","text":"Three new hands wait to be given: a cart-dog, a tallow-chandler and an apothecary's apprentice, one for each kind of hireling.","translated":"Three new hands wait to be given: a cart-dog, a tallow-chandler and an apothecary's apprentice, one for each kind of hireling."}
+{"file":"game/lowmoor.js","text":"The kit is much widened: five new pieces in every kind of gear, from the arming sword to the pit boots.","translated":"The kit is much widened: five new pieces in every kind of gear, from the arming sword to the pit 靴子."}
+{"file":"game/lowmoor.js","text":"A Steam button on the menu bar opens the store page for the PC build, where a wishlist helps the game find players on the day it opens.","translated":"A Steam button on the menu bar opens the store page for the PC build, where a wishlist helps the game find players on the day it opens."}
+{"file":"game/lowmoor.js","text":"That page offers itself once, and never again after that. The browser game stays free and stays here.","translated":"That page offers itself once, and never again after that. The browser game stays free and stays here."}
+{"file":"game/lowmoor.js","text":"21 July 2026","translated":"21 July 2026"}
+{"file":"game/lowmoor.js","text":"Origins at enrolment, and a surer save.","translated":"Origins at enrolment, and a surer save."}
+{"file":"game/lowmoor.js","text":"At enrolment you now choose an Origin beside folk and trade: the life the Guild took you from, twelve in all, each with one small gift.","translated":"At enrolment you now choose an Origin beside 种族 and 职业: the life the 行会 took you from, twelve in all, each with one small gift."}
+{"file":"game/lowmoor.js","text":"The pool of names an adventurer may be enrolled under is much enlarged, so a fresh name rarely repeats.","translated":"The pool of names an adventurer may be enrolled under is much enlarged, so a fresh name rarely repeats."}
+{"file":"game/lowmoor.js","text":"Quality of life","translated":"Quality of life"}
+{"file":"game/lowmoor.js","text":"The statusbar shows how long since the browser last kept a copy of the chronicle, and a Save now button takes one at once.","translated":"The statusbar shows how long since the browser last kept a copy of the chronicle, and a 保存 now button takes one at once."}
+{"file":"game/lowmoor.js","text":"A refused save now says so in the statusbar, and a return catch-up is saved at once.","translated":"A refused save now says so in the statusbar, and a return catch-up is saved at once."}
+{"file":"game/lowmoor.js","text":"A retiring adventurer's pension now weighs the depths reached, so a long descent out-earns a quick retire at Rank 5.","translated":"A retiring adventurer's pension now weighs the depths reached, so a long descent out-earns a quick retire at 阶位 5."}
+{"file":"game/lowmoor.js","text":"The bestiary now draws the beasts of Arcs IV and V, which were counted but never shown.","translated":"The bestiary now draws the beasts of Arcs IV and V, which were counted but never shown."}
+{"file":"game/lowmoor.js","text":"The endless court keeps all the deep's weathers, so its five weather beasts can be met and recorded there.","translated":"The endless court keeps all the deep's weathers, so its five 天气 beasts can be met and recorded there."}
+{"file":"game/lowmoor.js","text":"Court seasons now carry across an update that opens a new arc, rather than restarting at one.","translated":"Court seasons now carry across an update that opens a new 幕, rather than restarting at one."}
+{"file":"game/lowmoor.js","text":"Buying a Roll of Honour upgrade no longer rerolls the waiting adventurer.","translated":"Buying a Roll of Honour upgrade no longer rerolls the waiting adventurer."}
+{"file":"game/lowmoor.js","text":"19 July 2026","translated":"19 July 2026"}
+{"file":"game/lowmoor.js","text":"Arcs IV and V, and a hireling to carry for you.","translated":"Arcs IV and V, and a hireling to carry for you."}
+{"file":"game/lowmoor.js","text":"The close of the module","translated":"The close of the module"}
+{"file":"game/lowmoor.js","text":"A chronicle found at the Court of the Lich is posted to the first new floor when the arcs open, with every season, point and record intact; the seasons resume past them.","translated":"A chronicle found at the Court of the Lich is posted to the first new 楼层 when the arcs open, with every season, point and record intact; the seasons resume past them."}
+{"file":"game/lowmoor.js","text":"A hireling's send-off is written into the epilogue when the chronicle closes, and its name is kept upon the Roll of Honour, where a later chronicle may remember it upon the road.","translated":"A hireling's send-off is written into the epilogue when the chronicle closes, and its name is kept upon the Roll of Honour, where a later chronicle may remember it upon the road."}
+{"file":"game/lowmoor.js","text":"17 July 2026","translated":"17 July 2026"}
+{"file":"game/lowmoor.js","text":"Eight ways to close a chronicle, and far more to read on the road.","translated":"Eight ways to close a chronicle, and far more to read on the road."}
+{"file":"game/lowmoor.js","text":"The last camp before the wyrm now offers eight ways to close your chronicle rather than three, so the page that ends the descent reads differently from one adventurer to the next.","translated":"The last camp before the wyrm now offers eight ways to close your chronicle rather than three, so the page that ends the descent reads differently from one adventurer to the next."}
+{"file":"game/lowmoor.js","text":"Every floor below the goblin warren now carries nine or ten ambient lines upon the road rather than four, so the deeper you go the less the log repeats itself over a long descent.","translated":"Every 楼层 below the goblin warren now carries nine or ten ambient lines upon the road rather than four, so the deeper you go the less the log repeats itself over a long descent."}
+{"file":"game/lowmoor.js","text":"Twelve new treasures wait in the deeper halls and the Court of the Lich, each with its own card in the trophy case and each entering the hall's talk of treasures yet unfound.","translated":"Twelve new treasures wait in the deeper halls and the Court of the Lich, each with its own card in the 战利品 case and each entering the hall's talk of treasures yet unfound."}
+{"file":"game/lowmoor.js","text":"The kill log now draws from thirty verbs rather than sixteen, martial and ledger-flavoured both, so the same beast falls in more words from one kill to the next.","translated":"The kill log now draws from thirty verbs rather than sixteen, martial and ledger-flavoured both, so the same 野兽 falls in more words from one kill to the next."}
+{"file":"game/lowmoor.js","text":"The rare pale beast now announces itself from twelve lines of dread rather than five.","translated":"The 稀有 pale 野兽 now announces itself from twelve lines of dread rather than five."}
+{"file":"game/lowmoor.js","text":"A boon that carries an ill, like the counterfeit town's mark upon your gold, now reads in red upon its chip, to tell it apart at a glance from the boons that only help.","translated":"A 恩惠 that carries an ill, like the counterfeit town's mark upon your 金币, now reads in red upon its chip, to tell it apart at a glance from the boons that only help."}
+{"file":"game/lowmoor.js","text":"file:","translated":"file:"}
+{"file":"game/lowmoor.js","text":"&utm_medium=ingame&utm_campaign=v","translated":"&utm_medium=ingame&utm_campaign=v"}
+{"file":"game/lowmoor.js","text":"&utm_content=","translated":"&utm_content="}
+{"file":"game/lowmoor.js","text":"the volley","translated":"the volley"}
+{"file":"game/lowmoor.js","text":"Darts of force, one for each of the fingers you can spare, and each finds its mark without asking the dice.","translated":"Darts of force, one for each of the fingers you can spare, and each finds its mark without asking the dice."}
+{"file":"game/lowmoor.js","text":"A Coal from the First Hearth","translated":"A Coal from the First Hearth"}
+{"file":"game/lowmoor.js","text":"the coal","translated":"the coal"}
+{"file":"game/lowmoor.js","text":"A coal carried down from the hearth that was lit before there were hearths. It is set upon the air and it does the rest.","translated":"A coal carried down from the hearth that was lit before there were hearths. It is set upon the air and it does the rest."}
+{"file":"game/lowmoor.js","text":"The Levied Light","translated":"The Levied Light"}
+{"file":"game/lowmoor.js","text":"the light","translated":"the light"}
+{"file":"game/lowmoor.js","text":"A light levied upon the dark, as a tax is levied, and collected from whatever stands in it. What the grave sent back up pays double.","translated":"A light levied upon the dark, as a tax is levied, and collected from whatever stands in it. What the grave sent back up pays double."}
+{"file":"game/lowmoor.js","text":"the hold","translated":"the hold"}
+{"file":"game/lowmoor.js","text":"the share","translated":"the share"}
+{"file":"game/lowmoor.js","text":"the song","translated":"the song"}
+{"file":"game/lowmoor.js","text":"A song sung down rather than up, in the key the beast's own bones were set in.","translated":"A song sung down rather than up, in the key the 野兽's own bones were set in."}
+{"file":"game/lowmoor.js","text":"Shield Wall","translated":"Shield Wall"}
+{"file":"game/lowmoor.js","text":"the shield","translated":"the 盾牌"}
+{"file":"game/lowmoor.js","text":"the seam","translated":"the seam"}
+{"file":"game/lowmoor.js","text":"The seam in the plate, the joint in the carapace, the place the hide was mended once: found first, struck after.","translated":"The seam in the plate, the joint in the carapace, the place the hide was mended once: found first, struck after."}
+{"file":"game/lowmoor.js","text":"Blood Up","translated":"Blood Up"}
+{"file":"game/lowmoor.js","text":"the blood","translated":"the blood"}
+{"file":"game/lowmoor.js","text":"the fury","translated":"the fury"}
+{"file":"game/lowmoor.js","text":"The Smite","translated":"The Smite"}
+{"file":"game/lowmoor.js","text":"the oath","translated":"the oath"}
+{"file":"game/lowmoor.js","text":"the smite","translated":"the smite"}
+{"file":"game/lowmoor.js","text":"the flurry","translated":"the flurry"}
+{"file":"game/lowmoor.js","text":"the light's harm","translated":"the light's harm"}
+{"file":"game/lowmoor.js","text":"what the hold is worth","translated":"what the hold is worth"}
+{"file":"game/lowmoor.js","text":"is felt","translated":"is felt"}
+{"file":"game/lowmoor.js","text":"crit range","translated":"crit range"}
+{"file":"game/lowmoor.js","text":"stays open","translated":"stays open"}
+{"file":"game/lowmoor.js","text":"the lead","translated":"the lead"}
+{"file":"game/lowmoor.js","text":"smite dice","translated":"smite dice"}
+{"file":"game/lowmoor.js","text":"the ability","translated":"the 能力"}
+{"file":"game/lowmoor.js","text":"Doubles","translated":"Doubles"}
+{"file":"game/lowmoor.js","text":"% duration.","translated":"% duration."}
+{"file":"game/lowmoor.js","text":"MP to use.","translated":"法力值 to use."}
+{"file":"game/lowmoor.js","text":"The Second Wind","translated":"The Second Wind"}
+{"file":"game/lowmoor.js","text":"% chance to cost no MP.","translated":"% chance to cost no 法力值."}
+{"file":"game/lowmoor.js","text":"The tree takes its next step: <b>","translated":"The tree takes its next step: <b>"}
+{"file":"game/lowmoor.js","text":"more","translated":"more"}
+{"file":"game/lowmoor.js","text":"Def.","translated":"Def."}
+{"file":"game/lowmoor.js","text":"pack slot","translated":"pack slot"}
+{"file":"game/lowmoor.js","text":"per level.","translated":"per level."}
+{"file":"game/lowmoor.js","text":"(65% cap).","translated":"(65% cap)."}
+{"file":"game/lowmoor.js","text":"on every d20, attacks included.","translated":"on every d20, attacks included."}
+{"file":"game/lowmoor.js","text":"on the trophy roll.","translated":"on the 战利品骰."}
+{"file":"game/lowmoor.js","text":"Pets grow","translated":"宠物 grow"}
+{"file":"game/lowmoor.js","text":"% faster and give","translated":"% faster and give"}
+{"file":"game/lowmoor.js","text":"% more.","translated":"% more."}
+{"file":"game/lowmoor.js","text":"% of max HP, never below","translated":"% of max 生命值, never below"}
+{"file":"game/lowmoor.js","text":"% a minute: 5 minutes of +","translated":"% a minute: 5 minutes of +"}
+{"file":"game/lowmoor.js","text":"% damage and +","translated":"% damage and +"}
+{"file":"game/lowmoor.js","text":"STR.","translated":"STR."}
+{"file":"game/lowmoor.js","text":"DEX.","translated":"DEX."}
+{"file":"game/lowmoor.js","text":"CON.","translated":"CON."}
+{"file":"game/lowmoor.js","text":"INT.","translated":"INT."}
+{"file":"game/lowmoor.js","text":"WIS.","translated":"WIS."}
+{"file":"game/lowmoor.js","text":"CHA.","translated":"CHA."}
+{"file":"game/lowmoor.js","text":"Start with","translated":"Start with"}
+{"file":"game/lowmoor.js","text":"extra abilit","translated":"extra abilit"}
+{"file":"game/lowmoor.js","text":"% cheaper.","translated":"% cheaper."}
+{"file":"game/lowmoor.js","text":"% longer.","translated":"% longer."}
+{"file":"game/lowmoor.js","text":"% faster and cost","translated":"% faster and cost"}
+{"file":"game/lowmoor.js","text":"% less.","translated":"% less."}
+{"file":"game/lowmoor.js","text":"HP per level, and","translated":"生命值 per level, and"}
+{"file":"game/lowmoor.js","text":"to spot traps and ambushes on the road.","translated":"to spot traps and ambushes on the road."}
+{"file":"game/lowmoor.js","text":"A missed trap or ambush gets a second look, at +","translated":"A missed trap or ambush gets a second look, at +"}
+{"file":"game/lowmoor.js","text":"on road saves (terrain and traps).","translated":"on road saves (terrain and traps)."}
+{"file":"game/lowmoor.js","text":"% ambush, +","translated":"% ambush, +"}
+{"file":"game/lowmoor.js","text":"% shortcut on road legs.","translated":"% shortcut on 道路路段."}
+{"file":"game/lowmoor.js","text":"% more road legs hold a chest.","translated":"% more 道路路段 hold a chest."}
+{"file":"game/lowmoor.js","text":"% chance of a legendary at capstones.","translated":"% chance of a 传奇 at capstones."}
+{"file":"game/lowmoor.js","text":"% chance a long rest keeps its camp.","translated":"% chance a 长休 keeps its camp."}
+{"file":"game/lowmoor.js","text":"% chance a breath becomes a full night's rest, no camp spent.","translated":"% chance a breath becomes a full night's rest, no camp spent."}
+{"file":"game/lowmoor.js","text":"% chance a failed forge rung refunds its gold.","translated":"% chance a failed forge rung refunds its 金币."}
+{"file":"game/lowmoor.js","text":"% chance of a free second forge attempt at half odds.","translated":"% chance of a free second forge attempt at half odds."}
+{"file":"game/lowmoor.js","text":"point","translated":"point"}
+{"file":"game/lowmoor.js","text":"of forge odds.","translated":"of forge odds."}
+{"file":"game/lowmoor.js","text":"to a word's save DC.","translated":"to a word's save DC."}
+{"file":"game/lowmoor.js","text":"to the ability firing ceiling.","translated":"to the 能力 firing ceiling."}
+{"file":"game/lowmoor.js","text":"% chance to spot a mimic and strike first.","translated":"% chance to spot a mimic and strike first."}
+{"file":"game/lowmoor.js","text":"% chance a slain mimic yields a chest.","translated":"% chance a slain mimic yields a chest."}
+{"file":"game/lowmoor.js","text":"% chance a mimic gives up the companion.","translated":"% chance a mimic gives up the companion."}
+{"file":"game/lowmoor.js","text":"% of road legs hold a lost expedition.","translated":"% of 道路路段 hold a lost expedition."}
+{"file":"game/lowmoor.js","text":"% of road legs find the Forgotten Stair, one a floor.","translated":"% of 道路路段 find the Forgotten Stair, one a 楼层."}
+{"file":"game/lowmoor.js","text":"% of nights dream,","translated":"% of nights dream,"}
+{"file":"game/lowmoor.js","text":"% of them truly.","translated":"% of them truly."}
+{"file":"game/lowmoor.js","text":"% chance a dreamt leg comes good.","translated":"% chance a dreamt leg comes good."}
+{"file":"game/lowmoor.js","text":"Adds a Dream row to the Adventurer's Papers. Pick a favourite there; true dreams show it 50% of the time.","translated":"Adds a Dream row to the 冒险者的 档案. Pick a favourite there; true dreams show it 50% of the time."}
+{"file":"game/lowmoor.js","text":"A long rest with a true dream costs no camp.","translated":"A 长休 with a true dream costs no camp."}
+{"file":"game/lowmoor.js","text":"% chance a short rest dreams.","translated":"% chance a 短休 dreams."}
+{"file":"game/lowmoor.js","text":"% HP and MP and lasts twice as long.","translated":"% 生命值 and 法力值 and lasts twice as long."}
+{"file":"game/lowmoor.js","text":"a further","translated":"a further"}
+{"file":"game/lowmoor.js","text":"Hunts are","translated":"Hunts are"}
+{"file":"game/lowmoor.js","text":"max HP.","translated":"max 生命值."}
+{"file":"game/lowmoor.js","text":"max MP.","translated":"max 法力值."}
+{"file":"game/lowmoor.js","text":"time.","translated":"time."}
+{"file":"game/lowmoor.js","text":"attack.","translated":"attack."}
+{"file":"game/lowmoor.js","text":"often.","translated":"often."}
+{"file":"game/lowmoor.js","text":"further","translated":"further"}
+{"file":"game/lowmoor.js","text":"off shop prices.","translated":"off shop prices."}
+{"file":"game/lowmoor.js","text":"onto shop prices.","translated":"onto shop prices."}
+{"file":"game/lowmoor.js","text":"abilities trigger","translated":"abilities trigger"}
+{"file":"game/lowmoor.js","text":"% more often.","translated":"% more often."}
+{"file":"game/lowmoor.js","text":"The fury","translated":"The fury"}
+{"file":"game/lowmoor.js","text":"crit damage, when the stroke comes clean.","translated":"crit damage, when the stroke comes clean."}
+{"file":"game/lowmoor.js","text":"stone of carriage.","translated":"石 of carriage."}
+{"file":"game/lowmoor.js","text":"stone of carriage per rank.","translated":"石 of carriage per rank."}
+{"file":"game/lowmoor.js","text":"Every wound is","translated":"Every wound is"}
+{"file":"game/lowmoor.js","text":"a point","translated":"a point"}
+{"file":"game/lowmoor.js","text":"points","translated":"points"}
+{"file":"game/lowmoor.js","text":"heavier.","translated":"heavier."}
+{"file":"game/lowmoor.js","text":"lighter (65% cap).","translated":"lighter (65% cap)."}
+{"file":"game/lowmoor.js","text":"upon every d20, the stroke included.","translated":"upon every d20, the stroke included."}
+{"file":"game/lowmoor.js","text":"upon the stroke's own roll.","translated":"upon the stroke's own roll."}
+{"file":"game/lowmoor.js","text":"on the roll for rarity.","translated":"on the roll for rarity."}
+{"file":"game/lowmoor.js","text":"A breath against the wall closes a further","translated":"A breath against the wall closes a further"}
+{"file":"game/lowmoor.js","text":"HP per rank.","translated":"生命值 per rank."}
+{"file":"game/lowmoor.js","text":"A companion comes on","translated":"A companion comes on"}
+{"file":"game/lowmoor.js","text":"% quicker and pays","translated":"% quicker and pays"}
+{"file":"game/lowmoor.js","text":"The move asks no MP but","translated":"The move asks no 法力值 but"}
+{"file":"game/lowmoor.js","text":"% of the blood, never under","translated":"% of the blood, never under"}
+{"file":"game/lowmoor.js","text":"minutes in a hundred bring 5 of +","translated":"minutes in a hundred bring 5 of +"}
+{"file":"game/lowmoor.js","text":"% stroke, +","translated":"% stroke, +"}
+{"file":"game/lowmoor.js","text":"% stride.","translated":"% stride."}
+{"file":"game/lowmoor.js","text":"Sign on with","translated":"Sign on with"}
+{"file":"game/lowmoor.js","text":"gold already.","translated":"金币 already."}
+{"file":"game/lowmoor.js","text":"One extra working at enrolment.","translated":"One extra 法术 at enrolment."}
+{"file":"game/lowmoor.js","text":"extra workings at enrolment.","translated":"extra workings at enrolment."}
+{"file":"game/lowmoor.js","text":"A kept gate eases CHA by","translated":"A kept gate eases CHA by"}
+{"file":"game/lowmoor.js","text":"DC and shaves","translated":"DC and shaves"}
+{"file":"game/lowmoor.js","text":"% at the counter.","translated":"% at the 商店."}
+{"file":"game/lowmoor.js","text":"Letters ease INT by","translated":"Letters ease INT by"}
+{"file":"game/lowmoor.js","text":"DC and hold a boon","translated":"DC and hold a 恩惠"}
+{"file":"game/lowmoor.js","text":"Refusals bank half again, and the heat costs","translated":"Refusals bank half again, and the heat costs"}
+{"file":"game/lowmoor.js","text":"HP per rank, and","translated":"生命值 per rank, and"}
+{"file":"game/lowmoor.js","text":"point of Defence.","translated":"point of 防御."}
+{"file":"game/lowmoor.js","text":"upon the watch: the trap and the ambush seen the sooner.","translated":"upon the watch: the trap and the ambush seen the sooner."}
+{"file":"game/lowmoor.js","text":"And the second look is the keener for it.","translated":"And the second look is the keener for it."}
+{"file":"game/lowmoor.js","text":"What the watch let past is looked at again, at +","translated":"What the watch let past is looked at again, at +"}
+{"file":"game/lowmoor.js","text":"to the footing, against every save the road asks.","translated":"to the footing, against every save the road asks."}
+{"file":"game/lowmoor.js","text":"The known ways: the ambush walked around and the shortcut found,","translated":"The known ways: the ambush walked around and the shortcut found,"}
+{"file":"game/lowmoor.js","text":"in a hundred.","translated":"in a hundred."}
+{"file":"game/lowmoor.js","text":"The dark yields","translated":"The dark yields"}
+{"file":"game/lowmoor.js","text":"more chest","translated":"more chest"}
+{"file":"game/lowmoor.js","text":"in a hundred stretches.","translated":"in a hundred stretches."}
+{"file":"game/lowmoor.js","text":"The collector's eye: a capstone gives up its legend","translated":"The collector's eye: a 终章 gives up its legend"}
+{"file":"game/lowmoor.js","text":"% oftener.","translated":"% oftener."}
+{"file":"game/lowmoor.js","text":"The fire banked and the camp kept,","translated":"The fire banked and the camp kept,"}
+{"file":"game/lowmoor.js","text":"% of nights.","translated":"% of nights."}
+{"file":"game/lowmoor.js","text":"The fire that catches:","translated":"The fire that catches:"}
+{"file":"game/lowmoor.js","text":"% of breaths kindle to a whole night, and no camp is spent.","translated":"% of breaths kindle to a whole night, and no camp is spent."}
+{"file":"game/lowmoor.js","text":"The smith blames the fire, not the hand:","translated":"The smith blames the fire, not the hand:"}
+{"file":"game/lowmoor.js","text":"% of refusals cost nothing.","translated":"% of refusals cost nothing."}
+{"file":"game/lowmoor.js","text":"Back into the coals while it is warm:","translated":"Back into the coals while it is warm:"}
+{"file":"game/lowmoor.js","text":"% of refusals turn the wheel again, free, at half the odds.","translated":"% of refusals turn the wheel again, free, at half the odds."}
+{"file":"game/lowmoor.js","text":"to the smith's own odds, and the hammer falls the truer.","translated":"to 铁匠的 own odds, and the hammer falls the truer."}
+{"file":"game/lowmoor.js","text":"upon the DC a word sets, and the beast must beat it.","translated":"upon the DC a word sets, and the 野兽 must beat it."}
+{"file":"game/lowmoor.js","text":"The ceiling of the firing stands","translated":"The ceiling of the firing stands"}
+{"file":"game/lowmoor.js","text":"The tooth in the hinge is seen","translated":"The tooth in the hinge is seen"}
+{"file":"game/lowmoor.js","text":"% of the time.","translated":"% of the time."}
+{"file":"game/lowmoor.js","text":"A mimic put down had swallowed a chest's worth,","translated":"A mimic put down had swallowed a chest's worth,"}
+{"file":"game/lowmoor.js","text":"The thing has a keeper's habit worked into it, and comes home","translated":"The thing has a keeper's habit worked into it, and comes home"}
+{"file":"game/lowmoor.js","text":"times as readily.","translated":"times as readily."}
+{"file":"game/lowmoor.js","text":"The overdue are looked for at last, and lie upon","translated":"The overdue are looked for at last, and lie upon"}
+{"file":"game/lowmoor.js","text":"% more of the legs you walk.","translated":"% more of the legs you walk."}
+{"file":"game/lowmoor.js","text":"One stair to a floor, looked for upon","translated":"One stair to a 楼层, looked for upon"}
+{"file":"game/lowmoor.js","text":"% of legs.","translated":"% of legs."}
+{"file":"game/lowmoor.js","text":"A trap seen is a trap stripped, and the makings sell at the counter.","translated":"A trap seen is a trap stripped, and the makings sell at the 商店."}
+{"file":"game/lowmoor.js","text":"A camp still standing catches the fall, and the long climb is spared.","translated":"A camp still standing catches the fall, and the long climb is spared."}
+{"file":"game/lowmoor.js","text":"The floor has something to say to a sleeper on","translated":"The 楼层 has something to say to a sleeper on"}
+{"file":"game/lowmoor.js","text":"nights in a hundred, and says it plainly on","translated":"nights in a hundred, and says it plainly on"}
+{"file":"game/lowmoor.js","text":"What the dark showed you is where it said it would be,","translated":"What the dark showed you is where it said it would be,"}
+{"file":"game/lowmoor.js","text":"times in a hundred.","translated":"times in a hundred."}
+{"file":"game/lowmoor.js","text":"Name the dream you would rather have, in the Dream row upon your Adventurer's Papers, and one true dream in two brings it.","translated":"Name the dream you would rather have, in the Dream row upon your 冒险者的 档案, and one true dream in two brings it."}
+{"file":"game/lowmoor.js","text":"A night that showed you something was worth the sleeping, and the camp is spared.","translated":"A night that showed you something was worth the sleeping, and the camp is spared."}
+{"file":"game/lowmoor.js","text":"Even a breath against the wall may go deep enough to dream,","translated":"Even a breath against the wall may go deep enough to dream,"}
+{"file":"game/lowmoor.js","text":"You sleep the deeper for it, and a dream carries the morning twice as far.","translated":"You sleep the deeper for it, and a dream carries the morning twice as far."}
+{"file":"game/lowmoor.js","text":"The dark runs the longer, and the thing that waits at the bottom of it comes up twice as often.","translated":"The dark runs the longer, and the thing that waits at the bottom of it comes up twice as often."}
+{"file":"game/lowmoor.js","text":"The night is asked","translated":"The night is asked"}
+{"file":"game/lowmoor.js","text":"times more","translated":"times more"}
+{"file":"game/lowmoor.js","text":", and what it shows you it shows you twice.","translated":", and what it shows you it shows you twice."}
+{"file":"game/lowmoor.js","text":"The morning holds","translated":"The morning holds"}
+{"file":"game/lowmoor.js","text":"Walking legs run","translated":"Walking legs run"}
+{"file":"game/lowmoor.js","text":"Hunts run","translated":"Hunts run"}
+{"file":"game/lowmoor.js","text":"The pack carries","translated":"The pack carries"}
+{"file":"game/lowmoor.js","text":"The whole of the body stands","translated":"The whole of the body stands"}
+{"file":"game/lowmoor.js","text":"The whole of the well stands","translated":"The whole of the well stands"}
+{"file":"game/lowmoor.js","text":"A breath against the wall closes","translated":"A breath against the wall closes"}
+{"file":"game/lowmoor.js","text":"The well of MP refills","translated":"The well of 法力值 refills"}
+{"file":"game/lowmoor.js","text":"Ills of the road run","translated":"Ills of the road run"}
+{"file":"game/lowmoor.js","text":"Every stroke lands","translated":"Every stroke lands"}
+{"file":"game/lowmoor.js","text":"The going runs","translated":"The going runs"}
+{"file":"game/lowmoor.js","text":"Workings fire","translated":"Workings fire"}
+{"file":"game/lowmoor.js","text":"less often.","translated":"less often."}
+{"file":"game/lowmoor.js","text":"shaves","translated":"shaves"}
+{"file":"game/lowmoor.js","text":"adds","translated":"adds"}
+{"file":"game/lowmoor.js","text":"off every price.","translated":"off every price."}
+{"file":"game/lowmoor.js","text":"onto every price.","translated":"onto every price."}
+{"file":"game/lowmoor.js","text":"Workings of","translated":"Workings of"}
+{"file":"game/lowmoor.js","text":"fires","translated":"fires"}
+{"file":"game/lowmoor.js","text":"fire","translated":"fire"}
+{"file":"game/lowmoor.js","text":"procs:","translated":"procs:"}
+{"file":"game/lowmoor.js","text":"+2 plates recorded at the opening of every chronicle, each stage; unknown beasts first.","translated":"+2 plates recorded at the opening of every chronicle, each stage; unknown beasts first."}
+{"file":"game/lowmoor.js","text":"+2 bestiary entries at the start of every run, each stage; unseen monsters first.","translated":"+2 bestiary entries at the start of every run, each stage; unseen monsters first."}
+{"file":"game/lowmoor.js","text":"+20% experience and gold for","translated":"+20% 经验 and 金币 for"}
+{"file":"game/lowmoor.js","text":"seconds upon every floor won, and","translated":"seconds upon every 楼层 won, and"}
+{"file":"game/lowmoor.js","text":"seconds more each stage.","translated":"seconds more each stage."}
+{"file":"game/lowmoor.js","text":"s after every floor won, +","translated":"s after every 楼层 won, +"}
+{"file":"game/lowmoor.js","text":"s a stage.","translated":"s a stage."}
+{"file":"game/lowmoor.js","text":"The first six stages add one stone of carriage each; the seventh raises the whole to eight.","translated":"The first six stages add one 石 of carriage each; the seventh raises the whole to eight."}
+{"file":"game/lowmoor.js","text":"Stages 1 to 6 add +1 pack slot each; stage 7 raises the total to +8.","translated":"Stages 1 to 6 add +1 pack slot each; stage 7 raises the total to +8."}
+{"file":"game/lowmoor.js","text":"The beast chalked upon the board is met","translated":"The 野兽 chalked upon the board is met"}
+{"file":"game/lowmoor.js","text":"% oftener each stage, from","translated":"% oftener each stage, from"}
+{"file":"game/lowmoor.js","text":"hunts in the hundred to","translated":"hunts in the hundred to"}
+{"file":"game/lowmoor.js","text":"The quest beast is drawn","translated":"The 任务 野兽 is drawn"}
+{"file":"game/lowmoor.js","text":"% more often each stage, from","translated":"% more often each stage, from"}
+{"file":"game/lowmoor.js","text":"+1 percentage point to Guild forge odds each stage.","translated":"+1 percentage point to 行会 forge odds each stage."}
+{"file":"game/lowmoor.js","text":"Hirelings gain 10% more experience and pets grow 10% faster each stage.","translated":"雇员 gain 10% more 经验 and pets grow 10% faster each stage."}
+{"file":"game/lowmoor.js","text":"A completed market return restores 5% of max HP and MP each stage.","translated":"A completed market return restores 5% of max 生命值 and 法力值 each stage."}
+{"file":"game/lowmoor.js","text":"+1 Spot for traps and ambushes each stage.","translated":"+1 Spot for traps and ambushes each stage."}
+{"file":"game/lowmoor.js","text":"A second hireling, of a different kind.","translated":"A second hireling, of a different kind."}
+{"file":"game/lowmoor.js","text":"the members' rate, then the rope-and-plank crew","translated":"the members' rate, then the rope-and-plank crew"}
+{"file":"game/lowmoor.js","text":"level 1 unlocks the members' rate; level 2 unlocks the rope-and-plank crew","translated":"level 1 unlocks the members' rate; level 2 unlocks the rope-and-plank crew"}
+{"file":"game/lowmoor.js","text":"+10% speed and experience for 15 minutes each level","translated":"+10% 速度 and 经验 for 15 minutes each level"}
+{"file":"game/lowmoor.js","text":"+10% speed and XP for 15m each level","translated":"+10% 速度 and 经验值 for 15m each level"}
+{"file":"game/lowmoor.js","text":"+1 sealed letter held","translated":"+1 sealed letter 持有"}
+{"file":"game/lowmoor.js","text":"+1 choice capacity","translated":"+1 choice capacity"}
+{"file":"game/lowmoor.js","text":"+1 skill point at enrolment","translated":"+1 技能点 at enrolment"}
+{"file":"game/lowmoor.js","text":"+1 skill point at the start of a run","translated":"+1 技能点 at the start of a run"}
+{"file":"game/lowmoor.js","text":"+1 feat carried upon your papers","translated":"+1 feat carried upon your papers"}
+{"file":"game/lowmoor.js","text":"+1 feat slot","translated":"+1 feat slot"}
+{"file":"game/lowmoor.js","text":"your trade's signature working, from degree I to III","translated":"your 职业's signature 法术, from degree I to III"}
+{"file":"game/lowmoor.js","text":"your trade's signature ability, from level I to III","translated":"your 职业's signature 能力, from level I to III"}
+{"file":"game/lowmoor.js","text":"Random at level 1, then +5 ability points a level","translated":"Random at level 1, then +5 能力 points a level"}
+{"file":"game/lowmoor.js","text":"Random at level 1, then +5 starting stat points a level","translated":"Random at level 1, then +5 starting stat points a level"}
+{"file":"game/lowmoor.js","text":"each counter boon is bought again as it lapses, while the purse holds three times its price; switched at the counter","translated":"each 商店 恩惠 is bought again as it lapses, while the purse holds three times its price; switched at the 商店"}
+{"file":"game/lowmoor.js","text":"shop buffs are re-bought as they lapse, while your gold is 3x the price; switched in the shop","translated":"shop buffs are re-bought as they lapse, while your 金币 is 3x the price; switched in the shop"}
+{"file":"game/lowmoor.js","text":"Sell 50 trophies at the counter.","translated":"Sell 50 trophies at the 商店."}
+{"file":"game/lowmoor.js","text":"Sell 50 trophies at the shop.","translated":"Sell 50 trophies at the shop."}
+{"file":"game/lowmoor.js","text":"clean strokes come one point lower upon the die","translated":"干净攻击 come one point lower upon the die"}
+{"file":"game/lowmoor.js","text":"+1 crit range, for every chronicle after","translated":"+1 crit range, for every chronicle after"}
+{"file":"game/lowmoor.js","text":"+1 camp in the pack, for a long rest taken where you stand","translated":"+1 camp in the pack, for a 长休 taken where you stand"}
+{"file":"game/lowmoor.js","text":"+1 long rest carried; a long rest fully restores HP and MP without leaving the dungeon","translated":"+1 长休 carried; a 长休 fully restores 生命值 and 法力值 without leaving the dungeon"}
+{"file":"game/lowmoor.js","text":"+5% retirement pension","translated":"+5% retirement pension"}
+{"file":"game/lowmoor.js","text":"+1 equipment roll in every capstone hoard","translated":"+1 equipment roll in every 终章 hoard"}
+{"file":"game/lowmoor.js","text":"important letters are kept when the satchel overflows","translated":"important letters are kept when the satchel overflows"}
+{"file":"game/lowmoor.js","text":"important choices are protected from queue overflow","translated":"important choices are protected from queue overflow"}
+{"file":"game/lowmoor.js","text":"Clean strokes come one point lower upon the die, and it stands with every other keeper of the band.","translated":"Clean strokes come one point lower upon the die, and it stands with every other keeper of the band."}
+{"file":"game/lowmoor.js","text":"Crit range widened by 1. It stacks with your other crit sources.","translated":"暴击 range widened by 1. It stacks with your other crit sources."}
+{"file":"game/lowmoor.js","text":"The Guild counts a nineteen for a twenty upon every check.","translated":"The 行会 counts a nineteen for a twenty upon every check."}
+{"file":"game/lowmoor.js","text":"A 19 counts as a 20 on checks.","translated":"A 19 counts as a 20 on checks."}
+{"file":"game/lowmoor.js","text":"A beast this chronicle has mastered takes a tenth again from every blow you land upon it.","translated":"A 野兽 this chronicle has mastered takes a tenth again from every blow you land upon it."}
+{"file":"game/lowmoor.js","text":"You deal 10% more damage to beasts you have mastered this run.","translated":"You deal 10% more damage to beasts you have mastered this run."}
+{"file":"game/lowmoor.js","text":"Weather favours skies with beasts you have not killed this run. Unmet and weather beasts are hunted first, and you attack a weather beast 1 extra time per round.","translated":"Weather favours skies with beasts you have not killed this run. Unmet and 天气 beasts are hunted first, and you attack a 天气 野兽 1 extra time per round."}
+{"file":"game/lowmoor.js","text":"From the eighth hour of the evening to the sixth of the morning your arm falls a twentieth heavier.","translated":"From the eighth hour of the evening to the sixth of the morning your arm falls a twentieth heavier."}
+{"file":"game/lowmoor.js","text":"A working the well cannot pay for is paid in blood: what the well is short, your own pool answers, point for point.","translated":"A 法术 the well cannot pay for is paid in blood: what the well is short, your own pool answers, point for point."}
+{"file":"game/lowmoor.js","text":"Your arm comes back to the guard a beat sooner, and falls once more in every round.","translated":"Your arm comes back to the guard a beat sooner, and falls once more in every round."}
+{"file":"game/lowmoor.js","text":"A house that keeps two beasts keeps them better: every companion of yours comes on a tenth the quicker.","translated":"A house that keeps two beasts keeps them better: every companion of yours comes on a tenth the quicker."}
+{"file":"game/lowmoor.js","text":"The blow that would put you down is met by the well first: it takes what mana you hold, point for point, and only the rest reaches you.","translated":"The blow that would put you down is met by the well first: it takes what 法力 you hold, point for point, and only the rest reaches you."}
+{"file":"game/lowmoor.js","text":"The shield arm takes a second blade instead. It falls once more in the round, its own die and nothing added to it.","translated":"The 盾牌 arm takes a second blade instead. It falls once more in the round, its own die and nothing added to it."}
+{"file":"game/lowmoor.js","text":"You are moved less by what is worked upon you, for good and for ill: a virtue laid on you stands three tenths shorter of its figure, and an ill half.","translated":"You are moved less by what is worked upon you, for good and for ill: a virtue laid on you stands three tenths shorter of its figure, and an ill half."}
+{"file":"game/lowmoor.js","text":"A critical hit. Every attack rolls a d20; roll high enough and the hit deals extra damage. Normally only a","translated":"A 暴击. Every attack rolls a d20; roll high enough and the hit deals extra damage. Normally only a"}
+{"file":"game/lowmoor.js","text":"crits. Upgrades can lower that number, to","translated":"crits. Upgrades can lower that number, to"}
+{"file":"game/lowmoor.js","text":"at best, and The Hard Stroke oath raises it by","translated":"at best, and The Hard Stroke oath raises it by"}
+{"file":"game/lowmoor.js","text":"Anything that lowers the number a crit needs by 1. Sources: Keen Mastery, The First Stroke feat, a keen weapon, the keen prestige bonus. DEX","translated":"Anything that lowers the number a crit needs by 1. Sources: Keen Mastery, The First Stroke feat, a keen weapon, the keen prestige bonus. DEX"}
+{"file":"game/lowmoor.js","text":"and DEX","translated":"and DEX"}
+{"file":"game/lowmoor.js","text":"add 1 each.","translated":"add 1 each."}
+{"file":"game/lowmoor.js","text":"One round: each side takes its attacks, then the next round starts. A beast has 1 to 4 attacks a round from its statblock. You have 1 at rank 1, one more at ranks","translated":"One round: each side takes its attacks, then the next round starts. A 野兽 has 1 to 4 attacks a round from its statblock. You have 1 at rank 1, one more at ranks"}
+{"file":"game/lowmoor.js","text":"and","translated":"and"}
+{"file":"game/lowmoor.js","text":", plus extras from items and techniques.","translated":", plus extras from items and techniques."}
+{"file":"game/lowmoor.js","text":"A short rest. Between","translated":"A 短休. Between"}
+{"file":"game/lowmoor.js","text":"% and","translated":"% and"}
+{"file":"game/lowmoor.js","text":"% HP the character stops and heals about","translated":"% 生命值 the character stops and heals about"}
+{"file":"game/lowmoor.js","text":"% of max HP, plus","translated":"% of max 生命值, plus"}
+{"file":"game/lowmoor.js","text":"% per CON modifier, and 1 MP per","translated":"% per CON modifier, and 1 法力值 per"}
+{"file":"game/lowmoor.js","text":"INT. It costs nothing.","translated":"INT. It costs nothing."}
+{"file":"game/lowmoor.js","text":"A long rest. Below","translated":"A 长休. Below"}
+{"file":"game/lowmoor.js","text":"% HP the character makes camp: full heal, 1 camp spent from the pack. With no camps left they climb out to a bed in town.","translated":"% 生命值 the character makes camp: 完全恢复, 1 camp spent from the pack. With no camps left they climb out to a bed in town."}
+{"file":"game/lowmoor.js","text":"The dungeon itself. Any floor counts. If the character is fighting monsters, they are in the deep.","translated":"The dungeon itself. Any 楼层 counts. If the character is fighting monsters, they are in the deep."}
+{"file":"game/lowmoor.js","text":"A weather event, about","translated":"A 天气 event, about"}
+{"file":"game/lowmoor.js","text":"minutes. All beasts count as undead and are","translated":"minutes. All beasts count as 亡灵 and are"}
+{"file":"game/lowmoor.js","text":"% stronger. It pays +","translated":"% stronger. It pays +"}
+{"file":"game/lowmoor.js","text":"% XP and +","translated":"% 经验值 and +"}
+{"file":"game/lowmoor.js","text":"A rare elite spawn:","translated":"A 稀有 elite spawn:"}
+{"file":"game/lowmoor.js","text":"x HP, +2 attack. It pays","translated":"x 生命值, +2 attack. It pays"}
+{"file":"game/lowmoor.js","text":"x gold and +","translated":"x 金币 and +"}
+{"file":"game/lowmoor.js","text":"on the trophy rarity roll.","translated":"on the 战利品 rarity roll."}
+{"file":"game/lowmoor.js","text":"The word, the technique","translated":"The word, the technique"}
+{"file":"game/lowmoor.js","text":"The shop","translated":"The shop"}
+{"file":"game/lowmoor.js","text":"Where items are bought and sold. Charisma works the prices: buying about","translated":"Where items are bought and sold. Charisma works the prices: buying about"}
+{"file":"game/lowmoor.js","text":"% cheaper per CHA modifier, selling about","translated":"% cheaper per CHA modifier, selling about"}
+{"file":"game/lowmoor.js","text":"% dearer per CHA modifier.","translated":"%（每点 CHA 调整值）。"}
+{"file":"game/lowmoor.js","text":"Progress toward the floor below, paid in work done. When the bar fills, a boss bars the way down; defeat it and the next chapter opens.","translated":"Progress toward the 楼层 below, paid in work 完成. When the bar fills, a 首领 bars the way down; defeat it and the next 章节 opens."}
+{"file":"game/lowmoor.js","text":"Above","translated":"Above"}
+{"file":"game/lowmoor.js","text":"% HP: fight on.","translated":"% 生命值: fight on."}

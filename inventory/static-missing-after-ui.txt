@@ -1,0 +1,26 @@
+.
+        The SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License
+        available at
+and
+creativecommons.org/licenses/by/3.0/legalcode
+creativecommons.org/licenses/by/4.0/legalcode
+creativecommons.org/publicdomain/zero/1.0/legalcode
+https://creativecommons.org/licenses/by/4.0/legalcode
+https://dnd.wizards.com/resources/systems-reference-document
+Lorc, Delapouite, sbed, Skoll, DarkZaitzev and Caro Asercion, available on
+The bestiary plates are the work of six artists and are used here as
+        adaptations: each drawing was converted to greyscale and reduced to line
+        for the plate frame, and nothing else about it was altered.
+        The two module covers and the plates of the bone-dog and the leech are
+        adapted the same way from work that is out of copyright by age: Harry
+        Clarke's illustrations to Poe's Tales of Mystery and Imagination (1919)
+        and to Faust (1925), and Thomas Bewick's wood engravings for A General
+        History of Quadrupeds (1790). Clarke died in 1931 and Bewick in 1828,
+        and no licence is claimed over either.
+        Colorful Monsters © 2020 by Mikoarc Studio is licensed under CC BY 4.0.
+        Plates by Justin Nichol are licensed under CC BY 4.0. Plates by Jeff
+        Preston are licensed under CC BY 3.0. Plates by Mariana Ruiz Villarreal
+        (LadyofHats), Morgan Strauss and Remi are released under CC0.
+        The Creative Commons licences are available at
+This work includes material taken from the System Reference Document 5.1 ("SRD 5.1")
+        by Wizards of the Coast LLC and available at

@@ -1,0 +1,106 @@
+[
+  {
+    "path": "assets/icon.ico",
+    "size_bytes": 21962,
+    "extension": ".ico",
+    "text_candidate": false,
+    "classification": "player-facing-candidate",
+    "reason": "Game UI, narrative, content, or visual asset directory."
+  },
+  {
+    "path": "assets/icon.png",
+    "size_bytes": 8185,
+    "extension": ".png",
+    "text_candidate": false,
+    "classification": "player-facing-candidate",
+    "reason": "Game UI, narrative, content, or visual asset directory."
+  },
+  {
+    "path": "game/index.html",
+    "size_bytes": 85408,
+    "extension": ".html",
+    "text_candidate": true,
+    "classification": "player-facing-candidate",
+    "reason": "Game UI, narrative, content, or visual asset directory."
+  },
+  {
+    "path": "game/lowmoor-boot.js",
+    "size_bytes": 1332,
+    "extension": ".js",
+    "text_candidate": true,
+    "classification": "player-facing-candidate",
+    "reason": "Game UI, narrative, content, or visual asset directory."
+  },
+  {
+    "path": "game/lowmoor.css",
+    "size_bytes": 84165,
+    "extension": ".css",
+    "text_candidate": true,
+    "classification": "player-facing-candidate",
+    "reason": "Game UI, narrative, content, or visual asset directory."
+  },
+  {
+    "path": "game/lowmoor.js",
+    "size_bytes": 2437133,
+    "extension": ".js",
+    "text_candidate": true,
+    "classification": "player-facing-candidate",
+    "reason": "Game UI, narrative, content, or visual asset directory."
+  },
+  {
+    "path": "main.js",
+    "size_bytes": 11652,
+    "extension": ".js",
+    "text_candidate": true,
+    "classification": "runtime-entry",
+    "reason": "Runtime entry; translate only user-visible strings and preserve APIs."
+  },
+  {
+    "path": "package.json",
+    "size_bytes": 249,
+    "extension": ".json",
+    "text_candidate": true,
+    "classification": "metadata",
+    "reason": "Packaging metadata; normally not translated."
+  },
+  {
+    "path": "preload.js",
+    "size_bytes": 5597,
+    "extension": ".js",
+    "text_candidate": true,
+    "classification": "runtime-entry",
+    "reason": "Runtime entry; translate only user-visible strings and preserve APIs."
+  },
+  {
+    "path": "settings.js",
+    "size_bytes": 2483,
+    "extension": ".js",
+    "text_candidate": true,
+    "classification": "runtime-entry",
+    "reason": "Runtime entry; translate only user-visible strings and preserve APIs."
+  },
+  {
+    "path": "steam.js",
+    "size_bytes": 8196,
+    "extension": ".js",
+    "text_candidate": true,
+    "classification": "runtime-entry",
+    "reason": "Runtime entry; translate only user-visible strings and preserve APIs."
+  },
+  {
+    "path": "window.js",
+    "size_bytes": 15095,
+    "extension": ".js",
+    "text_candidate": true,
+    "classification": "runtime-entry",
+    "reason": "Runtime entry; translate only user-visible strings and preserve APIs."
+  },
+  {
+    "path": "zoom.js",
+    "size_bytes": 6696,
+    "extension": ".js",
+    "text_candidate": true,
+    "classification": "runtime-entry",
+    "reason": "Runtime entry; translate only user-visible strings and preserve APIs."
+  }
+]

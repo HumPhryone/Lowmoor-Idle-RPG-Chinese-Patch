@@ -1,0 +1,7 @@
+{
+  "path": "game/lowmoor.css",
+  "old": "  :root{",
+  "new": "  @font-face{font-family:'Source Han Sans SC';src:url('./fonts/SourceHanSansSC-Regular.otf') format('opentype');font-style:normal;font-weight:400;}\n  @font-face{font-family:'Source Han Sans SC';src:url('./fonts/SourceHanSansSC-Bold.otf') format('opentype');font-style:normal;font-weight:700;}\n  :root{",
+  "expected_count": 1,
+  "context": "字体注入已纳入正式 patch-manifest.json；该条目启用随补丁提供的 CJK 字体且不改变选择器。"
+}

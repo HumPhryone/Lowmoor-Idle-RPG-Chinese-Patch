@@ -1,0 +1,116 @@
+{
+  "root": "C:\\Users\\mumu\\Desktop\\Lowmoor Idle RPG An Adventurer's Chronicle\\chinese-patch\\source\\app-asar",
+  "files": [
+    {
+      "file": "assets/icon.ico",
+      "size": 21962,
+      "extension": ".ico",
+      "textLike": false,
+      "ignoredTextResource": false,
+      "hasCandidates": false
+    },
+    {
+      "file": "assets/icon.png",
+      "size": 8185,
+      "extension": ".png",
+      "textLike": false,
+      "ignoredTextResource": false,
+      "hasCandidates": false
+    },
+    {
+      "file": "game/index.html",
+      "size": 85408,
+      "extension": ".html",
+      "textLike": true,
+      "ignoredTextResource": false,
+      "hasCandidates": true
+    },
+    {
+      "file": "game/lowmoor-boot.js",
+      "size": 1332,
+      "extension": ".js",
+      "textLike": true,
+      "ignoredTextResource": false,
+      "hasCandidates": true
+    },
+    {
+      "file": "game/lowmoor.css",
+      "size": 84165,
+      "extension": ".css",
+      "textLike": false,
+      "ignoredTextResource": true,
+      "hasCandidates": false
+    },
+    {
+      "file": "game/lowmoor.js",
+      "size": 2437133,
+      "extension": ".js",
+      "textLike": true,
+      "ignoredTextResource": false,
+      "hasCandidates": true
+    },
+    {
+      "file": "main.js",
+      "size": 11652,
+      "extension": ".js",
+      "textLike": true,
+      "ignoredTextResource": false,
+      "hasCandidates": true
+    },
+    {
+      "file": "package.json",
+      "size": 249,
+      "extension": ".json",
+      "textLike": false,
+      "ignoredTextResource": true,
+      "hasCandidates": false
+    },
+    {
+      "file": "preload.js",
+      "size": 5597,
+      "extension": ".js",
+      "textLike": true,
+      "ignoredTextResource": false,
+      "hasCandidates": true
+    },
+    {
+      "file": "settings.js",
+      "size": 2483,
+      "extension": ".js",
+      "textLike": true,
+      "ignoredTextResource": false,
+      "hasCandidates": true
+    },
+    {
+      "file": "steam.js",
+      "size": 8196,
+      "extension": ".js",
+      "textLike": true,
+      "ignoredTextResource": false,
+      "hasCandidates": true
+    },
+    {
+      "file": "window.js",
+      "size": 15095,
+      "extension": ".js",
+      "textLike": true,
+      "ignoredTextResource": false,
+      "hasCandidates": true
+    },
+    {
+      "file": "zoom.js",
+      "size": 6696,
+      "extension": ".js",
+      "textLike": true,
+      "ignoredTextResource": false,
+      "hasCandidates": true
+    }
+  ],
+  "summary": {
+    "totalFiles": 13,
+    "textLikeFiles": 9,
+    "coveredTextFiles": 9,
+    "uncoveredTextFiles": 0,
+    "uncoveredText": []
+  }
+}

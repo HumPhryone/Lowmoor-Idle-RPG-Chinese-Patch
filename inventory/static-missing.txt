@@ -1,0 +1,270 @@
+The Roll of Honour
+Module
+Roll
+Folk
+Trade
+Origin
+Abilities
+Roll
+Unroll
+Prestige…
+About…
+Random
+Sign the Ledger
+Lowmoor
+Chronicle
+Save now
+Export Save
+Import Save
+Retire
+Guild
+Skills
+Shop
+Armoury
+Guildhouse
+Feats
+Retired Names
+Prestige
+Build
+Records
+Statistics
+Collections
+Achievements (
+Bestiary
+Hirelings
+Pets
+Memorial Wall
+Trophy Case
+Modules
+Events
+Current Event
+Profile
+History
+Extras
+FYRBAL.EXE
+Options
+Music
+Help
+Glossary
+About
+Discord
+Steam
+Fold
+Notices
+Clear all
+Adventurer's Papers
+Entry
+Record
+Stat
+Value
+Experience
+Cantrips
+The word
+Cantrip
+Upon
+Fires
+The Hireling
+Hirelings
+Pet
+Pets
+Equipment
+Slot
+Item
+Lvl
+Armoury
+Inventory
+Item
+Qty
+Encumbrance
+Plot
+Descent
+Guild Noticeboard
+Quest
+The Muster
+Your watch
+The muster
+Stand your watch
+Loading…
+Skill Tree
+Pause
+▼ new lines
+◎ Log
+Saved
+On the Road
+What the log keeps
+Keep all
+OK
+OK
+Bestiary of the Deep
+OK
+The Armoury
+Auto-equip better gear
+Kit: auto
+Show:
+common
+uncommon
+rare
+very rare
+legendary
+artefact
+Slot:
+worn now
+Find:
+The Guild forge
+Upgrade
+OK
+The Skill Tree
+Points in hand:
+Taken:
+of
+Rings closed:
+Oath:
+none
+Find:
+The pen:
+The Guild picks for you
+You pick by hand
+Centre
+skill
+major skill
+oath
+mastery
+open
+quarter progress
+bright: taken
+Amend
+OK
+Upgrades
+The Guild spends for me
+Reset
+OK
+A Mastery
+Cancel
+Auto-assign focus
+Clear all
+OK
+The Guild takes the pen
+Keep the pen
+The Guild's Book of Hands
+OK
+The Roll of Pets
+OK
+The Memorial Wall
+OK
+OK
+The Roll in figures
+How it works
+OK
+While You Were Away
+Very Good
+Copy Save Code
+Begin a New Chronicle
+Back to Work
+The Guild Shop
+Done
+The Guildhouse
+The Guild Calendar
+OK
+The Trophy Case
+OK
+OK
+OK
+Very Good
+The Guild calls a muster
+Stand your watch
+OK
+OK
+OK
+The Guildhouse
+OK
+The Shop
+The Board of Feats
+OK
+The Roll of Retired Names
+OK
+Save Code
+Download
+OK
+Cancel
+The standing invite
+admits any member.
+its own page on Steam
+After
+Lorc, Delapouite, sbed, Skoll, DarkZaitzev and Caro Asercion, available on
+game-icons.net, under CC BY 3.0.
+This work includes material taken from the System Reference Document 5.1 ("SRD 5.1")
+        by Wizards of the Coast LLC and available at
+https://dnd.wizards.com/resources/systems-reference-document
+.
+        The SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License
+        available at
+https://creativecommons.org/licenses/by/4.0/legalcode
+The bestiary plates are the work of six artists and are used here as
+        adaptations: each drawing was converted to greyscale and reduced to line
+        for the plate frame, and nothing else about it was altered.
+        The two module covers and the plates of the bone-dog and the leech are
+        adapted the same way from work that is out of copyright by age: Harry
+        Clarke's illustrations to Poe's Tales of Mystery and Imagination (1919)
+        and to Faust (1925), and Thomas Bewick's wood engravings for A General
+        History of Quadrupeds (1790). Clarke died in 1931 and Bewick in 1828,
+        and no licence is claimed over either.
+        Colorful Monsters © 2020 by Mikoarc Studio is licensed under CC BY 4.0.
+        Plates by Justin Nichol are licensed under CC BY 4.0. Plates by Jeff
+        Preston are licensed under CC BY 3.0. Plates by Mariana Ruiz Villarreal
+        (LadyofHats), Morgan Strauss and Remi are released under CC0.
+        The Creative Commons licences are available at
+creativecommons.org/licenses/by/4.0/legalcode
+creativecommons.org/licenses/by/3.0/legalcode
+and
+creativecommons.org/publicdomain/zero/1.0/legalcode
+OK
+Patch Notes
+OK
+OK
+Glossary
+OK
+Simplicity is how the Guild states its figures from now on, and it has been turned on for you: every bonus reads in plain terms, so a gift says
++2 pack slots
+where it used to say
++2 stone of carriage
+Options
+Options
+Play style
+Sound and music
+Volume
+Dice
+Events
+While You Were Away
+Log
+The sheet
+The desktop
+Windows 98
+GNOME 1
+Mac OS 8
+The lamps
+Motion
+Legibility
+Size
+Experience wizard
+Answer them again
+OK
+Automatic.
+By hand.
+Size
+Simplicity:
+bonuses in plain terms
+(the log, the lore and every name keep the words they have always had)
+The lamps:
+the hall by lamplight, inked pale upon a dark ground
+Windows 98:
+the grey bevels the Guild has always kept
+GNOME 1:
+a Linux desktop of the late nineties
+Mac OS 8:
+the platinum face of the old Macintosh
+Back
+Next
+Music
+OK
+FYRBAL.EXE
+SPACE / CLICK cast   S shoppe   ESC leave

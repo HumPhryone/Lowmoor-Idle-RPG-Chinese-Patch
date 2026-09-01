@@ -1,0 +1,13 @@
+C:\Users\mumu\Desktop\Lowmoor Idle RPG An Adventurer's Chronicle\chinese-patch\source\app-asar\main.js
+C:\Users\mumu\Desktop\Lowmoor Idle RPG An Adventurer's Chronicle\chinese-patch\source\app-asar\package.json
+C:\Users\mumu\Desktop\Lowmoor Idle RPG An Adventurer's Chronicle\chinese-patch\source\app-asar\preload.js
+C:\Users\mumu\Desktop\Lowmoor Idle RPG An Adventurer's Chronicle\chinese-patch\source\app-asar\settings.js
+C:\Users\mumu\Desktop\Lowmoor Idle RPG An Adventurer's Chronicle\chinese-patch\source\app-asar\steam.js
+C:\Users\mumu\Desktop\Lowmoor Idle RPG An Adventurer's Chronicle\chinese-patch\source\app-asar\window.js
+C:\Users\mumu\Desktop\Lowmoor Idle RPG An Adventurer's Chronicle\chinese-patch\source\app-asar\zoom.js
+C:\Users\mumu\Desktop\Lowmoor Idle RPG An Adventurer's Chronicle\chinese-patch\source\app-asar\assets\icon.ico
+C:\Users\mumu\Desktop\Lowmoor Idle RPG An Adventurer's Chronicle\chinese-patch\source\app-asar\assets\icon.png
+C:\Users\mumu\Desktop\Lowmoor Idle RPG An Adventurer's Chronicle\chinese-patch\source\app-asar\game\index.html
+C:\Users\mumu\Desktop\Lowmoor Idle RPG An Adventurer's Chronicle\chinese-patch\source\app-asar\game\lowmoor-boot.js
+C:\Users\mumu\Desktop\Lowmoor Idle RPG An Adventurer's Chronicle\chinese-patch\source\app-asar\game\lowmoor.css
+C:\Users\mumu\Desktop\Lowmoor Idle RPG An Adventurer's Chronicle\chinese-patch\source\app-asar\game\lowmoor.js
