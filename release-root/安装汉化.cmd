@@ -1,4 +1,5 @@
 @echo off
+chcp 65001 >nul
 setlocal
 set "SCRIPT_DIR=%~dp0"
 if exist "%SCRIPT_DIR%chinese-patch\tools\Apply-Asar-Patch.ps1" (

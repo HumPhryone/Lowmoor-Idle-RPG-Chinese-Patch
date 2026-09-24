@@ -1,21 +1,44 @@
 source_term	target	category	context_note	status
-Lowmoor: An Adventurer's Chronicle	Lowmoor：冒险者编年史	product name	Game title; decide once and reuse everywhere	approved
-Mereward	梅里沃德	place	Guild town; keep consistent across narrative and UI	approved
-Guild	行会	faction/system	The Adventurers' Guild; distinguish institution from building	approved
-The Maw	巨口深渊	place/module	Dungeon/deep proper name; review all compounds	approved
-The Mourning Vale	哀悼谷	place/module	Module II proper name	approved
-Adventurer's Papers	冒险者档案	UI panel	Character sheet panel title	approved
-Roll of Honour	荣誉名册	progression/system	Persistent prestige/achievement roll	approved
-Prestige	声望	resource	Meta-progression currency	approved
-Descent	下行进度	progress bar	Progress toward the next floor	approved
-Encumbrance	负重	stat/system	Inventory weight mechanic	approved
-Cantrips	戏法	ability/system	Spell/trick list; distinguish from signature moves	approved
-Feats	专长	progression/system	Earned and equipped passive deeds	approved
-Bestiary	怪物图鉴	collection/system	Beast reference book	approved
-Hirelings	雇员	character/system	Guild-employed companions	approved
-Pets	宠物	character/system	Companion collection and active pet	approved
-Armoury	军械库	building/system	Equipment register and forge	approved
-Guildhouse	行会大厅	building/system	Guild upgrade building	approved
-FYRBAL.EXE	FYRBAL.EXE	hidden mini-game	Keep product easter-egg identity; review casing	approved
-Maw-boar	巨口野猪	creature	Creature name; use same form in logs and bestiary	approved
-Lich	巫妖	creature/title	Boss/title; preserve capitalization policy	approved
+Lowmoor: An Adventurer's Chronicle	Lowmoor：冒险者纪事	product name	官方标题，保留 Lowmoor 英文	approved
+the Guild / Guildmaster	公会 / 公会长	faction	不用“行会”“会长”	approved
+Mereward	梅尔沃德	place	巨口上方最后的城镇	approved
+the Maw / the rim	巨口 / 井口	place	rim 亦可“巨口边缘”	approved
+the Bottom (of the Maw)	巨口之底	place	不用“世界之底”“底部”	approved
+the Undergate	深门	place	不用“深层之门”	approved
+the Mourning Vale / the Vale	哀恸谷 / 谷地	place/module	Vale gifts = 谷地赠礼	approved
+The Last Anchorage	最后的锚地	module	模组 III	approved
+Admiral Marek Vane	马雷克·韦恩提督	character	Admiral = 提督，不用“海军上将”	approved
+Captain Iona Reed	艾奥娜·里德船长	character		approved
+Master Pell	佩尔先生	character	柜台收购人	approved
+chronicle	纪事	system	量词用“部”：本部纪事、每部纪事	approved
+the Roll / Roll of Honour	名册 / 荣誉名册	system		approved
+Prestige	声望	resource		approved
+charter (skill tree) / Long Charter	宪章 / 长宪章	system	不用“大宪章”	approved
+charter (Guild regulations)	章程	lore	佩尔先生口中的规章	approved
+hireling / hand	帮手	system	不用“雇员/雇工”	approved
+warden (the seven) / Forewarden	守封者 / 前守者	lore	其他 warden 按语境：守卫、看守、守猎者	approved
+working / spell / knack / cantrip	术法 / 法术 / 技艺 / 戏法	magic		approved
+feat	专长	system		approved
+folk / trade / origin	种族 / 职业 / 出身	character creation		approved
+descent / descent credit	下行 / 下行进度	progress	不用“下探”“深入进度”	approved
+floor	层	progress		approved
+tag (Guild numbered tag)	身份牌	lore		approved
+trophy	战利品	item		approved
+the count / tally	计数 / 计数痕、刻痕	lore	主线母题，勿译作“数目”	approved
+Armoury	军械库	system		approved
+Module / Arc	模组 / 篇章	structure	Arc II = 第II篇章	approved
+capstone	关底首领	combat		approved
+mimic	拟形怪	creature		approved
+merrow / reef merrow	海渊鱼人 / 礁石海渊鱼人	creature		approved
+naga	纳迦	creature		approved
+wererat / werebear	鼠化人 / 熊化人	creature	ratling = 鼠人	approved
+anchorite	隐修者	creature		approved
+assay office	验金所	place		approved
+recovery party / recovery fund	搜救队 / 搜救基金	lore		approved
+quartermaster's yard	军需院	building		approved
+Noticeboard	布告板	building		approved
+Court of the Lich	巫妖宫廷	place		approved
+Hidden Haven	隐蔽避风港	ending		approved
+minstrel	乐师	hireling/shop	Bard = 吟游诗人	approved
+Dragonborn (Lapsed)	龙裔（资格失效）	folk	与“无执照”“条款待定”同为公文腔	approved
+HP / MP / XP / STR / CON / DEX / INT / WIS / CHA	保留英文缩写	stat	沿用官方	approved

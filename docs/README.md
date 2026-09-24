@@ -1,48 +1,80 @@
-# Lowmoor 简体中文汉化补丁
+# Lowmoor 简体中文润色补丁
 
-这是 Lowmoor 的简体中文汉化工程与发布目录。原始游戏没有语言选择入口，且桌面版从 `resources/app.asar` 内加载 HTML，因此补丁采用“备份原包、按清单重建 ASAR”的安装方式。原始源码保持不变，所有改写集中在 `translation/patch-manifest.json` 与运行时词库。
+适用：**Lowmoor Idle RPG: An Adventurer's Chronicle v1.7.2a**（Steam，2026-09-21 构建，包内版本号 v1.7.2c）
 
-已完成：
+## 为什么重做
 
-- `source/app-asar/`：完整 ASAR 提取物。
-- `inventory/asar-files.csv`、`inventory/asar-files.json`：封包文件清单。
-- `translation/text-candidates.csv`、`translation/text-candidates.json`：当前从完整 ASAR 提取的 11,759 条静态/动态文本候选；候选包含技术字面量，需按审计规则筛选。
-- `translation/dynamic-text-templates.json`：从 JavaScript 拼接表达式还原的 1,562 条动态消息模板，用于检查运行时最终可见文本，不可用片段数量代替完整消息覆盖率。
-- `tools/Audit-Resource-Coverage.js`：独立确认 ASAR 中全部 HTML/JavaScript 文本资源均已进入候选清单；CSS 与 package 元数据列为非玩家文案资源。
-- `docs/translation-constraints.md`：专业译者级别的语气、连续上下文、术语、词梗、占位符和审校约束。
-- `tools/Apply-Asar-Patch.ps1`：无参数安装器调用的 ASAR 重建工具。
-- `release-root/安装汉化.cmd`、`release-root/卸载汉化.cmd`：最终 ZIP 根目录脚本模板。
-- `tools/Build-Patch-Zip.ps1`：只打包发布所需文件，排除源码和审计材料。
-- `fonts/`：随补丁提供 Source Han Sans SC Regular/Bold 及许可证；清单已启用 CSS 字体注入。
-- `translation/runtime-zh.js`：运行时中文词库，按玩家可见文本逐条翻译章节、地点、职业、技能、帮助和日志中的常用句子；动态消息模板必须使用完整句式或保留数值/HTML 的正则规则。
-- `translation/runtime-zh-exact.js`：4,701 条完整句与短标签精确映射。
-- 全量审计结果：静态可见残留 0、动态模板可见残留 0、格式违规 0、文本类资源覆盖 9/9。
-- 发布验证：已在临时游戏副本中完成安装、重建 ASAR 内容检查与卸载；卸载后的封包 SHA-256 与原包一致。
-- `tools/Benchmark-Runtime-Performance.js`：覆盖空白节点、已汉化节点、未知文本、Canvas 重绘缓存与 2,000 节点复杂面板的性能回归门禁。
+2026-09-14 起，游戏内置了多语言系统 `LowmoorI18n`（英 / 波 / 简中 / 德 / 巴葡 / 日），简体中文词表共 32,166 条，打包在 `game/lowmoor-boot.js` 里。旧补丁（2026-09-01，基于 v1.6.5）的做法是在运行时匹配**英文**原句，再替换成中文。游戏切到简体中文后，屏幕上已经是官方中文，旧补丁的规则一条都匹配不上；同时 v1.7.0 新增的“模组 III：最后的锚地”也不在旧词库里。所以旧补丁在新版本上已经失效。
 
-## 性能修复
+新补丁改为**按词条键覆盖官方简体中文**：官方译文可用的就保留，只替换审校后确实需要修改的条目。
 
-2026-09-01 修复了汉化运行时在军械库、技能树等复杂窗口中重复遍历全部正则和词表的问题。运行时现在使用空白/中文快速路径、预编译短语规则、常数时间单词查找、4,096 项结果缓存、DOM 节点缓存，以及 MutationObserver 新增子树去重。
+## 审校范围与结果
 
-同一台机器上的修复前后基准：空白或已汉化节点由约 2.5 毫秒/节点降至约 0.0003 毫秒/节点；2,000 文本节点的合成面板首次扫描约 54 毫秒，缓存后约 0.6 毫秒。实际 Electron 封包中连续打开 20 次，军械库中位响应 28.9 毫秒、最大 35.1 毫秒；技能树中位响应 5.3 毫秒、最大 23 毫秒。
+- 全部 32,166 条中，去掉语法变格副本、技术键和纯占位符后，剩下 12,268 组不重复的“英文→官方中文”对照，逐条对照英文并结合上下文审校。
+- 最终覆盖 **1,699 个键**：
+  - 约 1,560 条是修订；
+  - 131 条是之前没有翻译的随机人名和兽名，现已音译或意译；
+  - 7 条是 v1.7.2a 新增、官方尚未翻译的更新日志，现已补译。
+- 逐条对照见 `translation/zh-changes.tsv`，列为：键、英文、官方译文、润色译文。
 
-## 汉化与安装说明
+主要问题类型（括号内为代表例）：
 
-1. `translation/terminology.tsv` 已统一专名、系统名、稀有度和机制词。
-2. `translation/patch-manifest.json` 已填入精确替换、上下文和计数；技术键、ID、URL、CSS、选择器和 API 均保持原样。
-3. 安装器会将 `runtime-zh.js` 写入 ASAR 内的 `game/zh.js`，由唯一的运行时翻译层处理菜单、名称、职业、属性、帮助提示、图鉴、日志和战斗文本；页面不再注入重复的内联观察器。
-4. 执行 `tools/Build-Patch-Zip.ps1` 生成 `Lowmoor-Chinese-Patch.zip`。将 ZIP 解压到游戏根目录后运行 `安装汉化.cmd`；需要恢复原版时运行 `卸载汉化.cmd`。
+| 类型 | 例 |
+|---|---|
+| 专名误译或前后不一 | Long Charter 官方作“大宪章”（易与 Magna Carta 混淆），改为“长宪章”；The Bottom 作“世界之底”，与“巨口之底”并存，统一为“巨口之底”；Undergate 在“深层之门”和“深门”之间混用；mimic 在“拟态怪”和“拟形怪”之间混用；Admiral 作“海军上将”，与“提督”并存 |
+| 机制说明出错 | 漏掉“伤口未闭时”这个条件；把宠物按柜台价**付给玩家**译反了；“每次命中都生效”被译成有条件才触发；“may”（有几率）被译成必定触发 |
+| 母题与设定被抹平 | 计数（count / tally）、名册（the Roll）、守封者（wardens）、债（debt）等贯穿主线的意象被译成泛泛的“数目”“荣誉名册”“守卫”；公会规章 charter 与玩家的技能宪章 charter 混为一谈 |
+| 冷幽默和双关丢失 | “The statues in its lair were not carved.”原被直接解释成“都是曾经的猎物”；“the chest, which is not a chest”；The Cut Purse 改为“剪绺”；Dragonborn (Lapsed) 由“订阅失效”改为“资格失效”，与“吟游诗人（无执照）”“邪术师（条款待定）”的公文腔保持一致 |
+| 残留英文和乱码 | 人名、兽名未翻译；Neris 被译成乱码“奈里英石过”；“Sons”“Holloway”等残留英文 |
 
-重新提取或更新候选表：
+术语规范见 `translation/terminology.tsv`，审校准则见 `docs/translation-constraints.md`。
+
+## 安装（玩家）
+
+1. 下载发布包 `Lowmoor-Chinese-Patch.zip`，解压到游戏根目录，即与 `Lowmoor.exe` 同级的目录（Steam 中右键游戏 →“管理”→“浏览本地文件”）。
+2. 关闭游戏，双击 `安装汉化.cmd`。
+3. 进入游戏，在首次启动的语言页或 **Options（选项）→ Language** 中选择 **简体中文**。
+
+- **卸载**：双击 `卸载汉化.cmd`，或在 Steam 中“验证游戏文件的完整性”。
+- **Steam 更新后**：更新会覆盖补丁，重新运行 `安装汉化.cmd` 即可。安装器会识别未打补丁的新封包，并自动刷新备份。
+- **官方改过的词条**：每条润色都记录了对应官方原译的指纹。若官方原译已变化（通常意味着英文原文改了），该条会自动跳过，改用官方新译，不会用旧译文覆盖新内容，也不会触发游戏自带的占位符校验而导致无法启动。
+- **注意**：若官方改动了 `lowmoor-boot.js` 中 zh-Hans 词表的开头或结尾结构，安装器会报“替换次数不符”并停止，不会改动游戏文件。
+
+## 工作原理
+
+- `translation/patch-manifest.json`（format_version 2）：
+  - 在 `index.html` 中，先于 `lowmoor-boot.js` 加载 `zh-override.js`；
+  - 在 `lowmoor-boot.js` 的 zh-Hans 词表外包一层 `__lowmoorZhMerge(...)`。
+- `translation/zh-override.js`：记录 `key → [官方原译指纹, 润色译文]`。游戏注册 zh-Hans 之前，先把润色译文合并进官方词表，随后仍由游戏自己的 `registerLocale` 校验占位符和结构。
+- `tools/Apply-Asar-Patch.ps1`：兼容 Windows PowerShell 5.1。
+  - 以流式方式从备份重建 `app.asar`，其余文件逐字节原样复制；
+  - 保留 `unpacked` 条目，即 steamworks.js 原生模块，保证成就和云存档正常；
+  - 按 Chromium Pickle 规则对齐头部。
+  - 旧版安装器会丢掉 `unpacked` 条目，并把 23MB 的文件整体装入 PowerShell 数组，新版已修正。
+
+## 维护流程（开发者）
+
+需要 Node.js 18+，以及 `npx @electron/asar`（用于解包）。
 
 ```powershell
-.\tools\Extract-Asar.ps1 -ArchivePath ..\resources\app.asar -OutputDirectory .\source\app-asar
-.\tools\Build-Material-Inventory.ps1 -ExtractedDirectory .\source\app-asar -OutputCsv .\inventory\asar-files.csv -OutputJson .\inventory\asar-files.json
-.\tools\Extract-Text-Candidates.ps1 -SourceDirectory .\source\app-asar -OutputCsv .\translation\text-candidates.csv -OutputJson .\translation\text-candidates.json
-node .\tools\Extract-Dynamic-Text-Templates.js
-node .\tools\Audit-Dynamic-Templates.js
-node .\tools\Audit-Visible-Translations.js
-node .\tools\Audit-Translation-Format.js
-node .\tools\Audit-Resource-Coverage.js
-node .\tools\Benchmark-Runtime-Performance.js
+# 1. 解包当前游戏（从备份或原版 app.asar）
+npx @electron/asar extract "<游戏目录>\resources\app.asar" .\source\app-asar
+# 2. 导出多语言词表
+node .\tools\Extract-Locales.js .\source\app-asar .\locales.json
+# 3. 编辑 translation\zh-revisions.json（key -> 润色译文；select/plural 词条保持官方的对象结构）
+# 4. 生成 zh-override.js（自动检查键是否存在、占位符是否与官方一致）
+node .\tools\Build-Override.js .\locales.json
+# 5. 用游戏自身的 i18n 校验器验证
+node .\tools\Validate-Patch.js .\source\app-asar
+# 6. 打包发布
+powershell -ExecutionPolicy Bypass -File .\tools\Build-Patch-Zip.ps1
 ```
+
+## 旧版文件
+
+以下文件属于 v1.6.5 时代的运行时英文替换方案，新补丁已不再使用，保留仅供参考，可以删除：
+
+- `translation/` 下：`runtime-zh.js`、`runtime-zh-exact.js`、`dynamic-text-templates.json`、`text-candidates.*`、`font-injection-entry.json`；
+- `inventory/` 目录；
+- `tools/` 下的 `Audit-*`、`Extract-Text-*`、`Extract-Dynamic-*`、`Benchmark-*`、`Build-Material-Inventory.ps1`、`Extract-Asar.ps1`；
+- `fonts/` 目录：官方中文依赖系统字体（微软雅黑等）即可正常显示。旧清单里的字体注入只声明了 `@font-face`，并没有应用到 `font-family`，实际从未生效。

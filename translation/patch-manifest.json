@@ -1,50 +1,37 @@
 {
-  "format_version": 1,
-  "game": "Lowmoor: An Adventurer's Chronicle",
+  "format_version": 2,
+  "game": "Lowmoor Idle RPG: An Adventurer's Chronicle",
+  "game_version": "1.7.2a",
   "archive": "resources/app.asar",
+  "add_files": [
+    {
+      "path": "game/zh-override.js",
+      "source": "translation/zh-override.js",
+      "context": "润色后的简体中文词条，由 lowmoor-boot.js 注册 zh-Hans 时合并。"
+    }
+  ],
   "entries": [
     {
       "path": "game/index.html",
-      "old": "<html lang=\"en\">",
-      "new": "<html lang=\"zh-CN\">",
+      "old": "<script src=\"lowmoor-boot.js\"></script>",
+      "new": "<script src=\"zh-override.js\"></script><script src=\"lowmoor-boot.js\"></script>",
       "expected_count": 1,
-      "context": "将页面语言标记设为简体中文，供无障碍工具和浏览器识别。"
+      "context": "在多语言引导脚本之前加载润色词条。"
     },
     {
-      "path": "game/index.html",
-      "old": "<script src=\"lowmoor.js\"></script>",
-      "new": "<script src=\"lowmoor.js\"></script><script src=\"zh-exact.js\"></script><script src=\"zh.js\"></script>",
+      "path": "game/lowmoor-boot.js",
+      "old": "LowmoorI18n.registerLocale({code:\"zh-Hans\",name:\"简体中文\",dir:\"ltr\"},{",
+      "new": "LowmoorI18n.registerLocale({code:\"zh-Hans\",name:\"简体中文\",dir:\"ltr\"},(globalThis.__lowmoorZhMerge||function(e){return e})({",
       "expected_count": 1,
-      "context": "加载独立的中文运行时词库，覆盖动态生成的剧情、日志、图鉴和系统文本。"
+      "context": "官方 zh-Hans 词表开头：套上合并函数。"
     },
     {
-      "path": "window.js",
-      "old": "Fullscreen. F11 to leave.",
-      "new": "全屏模式。按 F11 退出。",
+      "path": "game/lowmoor-boot.js",
+      "old": "}),LowmoorI18n.registerLocale({code:\"de\",",
+      "new": "})),LowmoorI18n.registerLocale({code:\"de\",",
       "expected_count": 1,
-      "context": "翻译桌面全屏提示。"
-    },
-    {
-      "path": "main.js",
-      "old": "title: \"Lowmoor: An Adventurer's Chronicle\"",
-      "new": "title: \"Lowmoor：冒险者编年史\"",
-      "expected_count": 1,
-      "context": "翻译桌面窗口标题。"
-    },
-    {
-      "path": "game/index.html",
-      "old": "<title>Lowmoor: An Adventurer's Chronicle</title>",
-      "new": "<title>Lowmoor：冒险者编年史</title>",
-      "expected_count": 1,
-      "context": "翻译窗口标题。"
-    },
-    {
-      "path": "game/lowmoor.css",
-      "old": "  :root{",
-      "new": "  @font-face{font-family:'Source Han Sans SC';src:url('./fonts/SourceHanSansSC-Regular.otf') format('opentype');font-style:normal;font-weight:400;}\n  @font-face{font-family:'Source Han Sans SC';src:url('./fonts/SourceHanSansSC-Bold.otf') format('opentype');font-style:normal;font-weight:700;}\n  :root{",
-      "expected_count": 1,
-      "context": "为中文界面启用随补丁提供的思源黑体，并保留原有西文字体回退。"
+      "context": "官方 zh-Hans 词表结尾：闭合合并函数。"
     }
   ],
-  "notes": "简体中文汉化发布清单；运行时已优化复杂窗口的 DOM 翻译性能。原始游戏源码保持不变，安装器会备份原封包并按本清单重建 ASAR。"
+  "notes": "v2：游戏自 2026-09 起内置多语言系统（LowmoorI18n），补丁改为按词条键覆盖官方简体中文，不再做运行时英文替换。"
 }
